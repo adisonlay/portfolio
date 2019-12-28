@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Source code for adisonlay.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build assets/styles/style-src.css -o assets/styles/style-dist.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adisonlay/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adisonlay/portfolio/issues"
+  },
+  "homepage": "https://github.com/adisonlay/portfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  }
+}
