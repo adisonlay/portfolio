@@ -627,6 +627,31 @@ video {
   }
 }
 
+.skill-icon-box, .tool-icon-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 8rem;
+  width: 6rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #f7fafc;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skill-icon-box:hover, .tool-icon-box:hover {
+  background-color: #fff;
+  border-width: 1px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -1063,6 +1088,74 @@ video {
   background-color: #702459;
 }
 
+.bg-html {
+  background-color: #e54d26;
+}
+
+.bg-css {
+  background-color: #3d8fc6;
+}
+
+.bg-js {
+  background-color: #f0db4f;
+}
+
+.bg-react {
+  background-color: #61dafb;
+}
+
+.bg-php {
+  background-color: #6181b6;
+}
+
+.bg-mysql {
+  background-color: #00618a;
+}
+
+.bg-node {
+  background-color: #83CD29;
+}
+
+.bg-bootstrap {
+  background-color: #59407f;
+}
+
+.bg-jquery {
+  background-color: #0769ad;
+}
+
+.bg-git {
+  background-color: #f34f29;
+}
+
+.bg-github {
+  background-color: #181616;
+}
+
+.bg-npm {
+  background-color: #cb3837;
+}
+
+.bg-webpack {
+  background-color: #1C78C0;
+}
+
+.bg-express {
+  background-color: #444;
+}
+
+.bg-aws {
+  background-color: #F7A80D;
+}
+
+.bg-ubuntu {
+  background-color: #DD4814;
+}
+
+.bg-apache {
+  background-color: #303284;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1435,6 +1528,74 @@ video {
   background-color: #702459;
 }
 
+.hover\:bg-html:hover {
+  background-color: #e54d26;
+}
+
+.hover\:bg-css:hover {
+  background-color: #3d8fc6;
+}
+
+.hover\:bg-js:hover {
+  background-color: #f0db4f;
+}
+
+.hover\:bg-react:hover {
+  background-color: #61dafb;
+}
+
+.hover\:bg-php:hover {
+  background-color: #6181b6;
+}
+
+.hover\:bg-mysql:hover {
+  background-color: #00618a;
+}
+
+.hover\:bg-node:hover {
+  background-color: #83CD29;
+}
+
+.hover\:bg-bootstrap:hover {
+  background-color: #59407f;
+}
+
+.hover\:bg-jquery:hover {
+  background-color: #0769ad;
+}
+
+.hover\:bg-git:hover {
+  background-color: #f34f29;
+}
+
+.hover\:bg-github:hover {
+  background-color: #181616;
+}
+
+.hover\:bg-npm:hover {
+  background-color: #cb3837;
+}
+
+.hover\:bg-webpack:hover {
+  background-color: #1C78C0;
+}
+
+.hover\:bg-express:hover {
+  background-color: #444;
+}
+
+.hover\:bg-aws:hover {
+  background-color: #F7A80D;
+}
+
+.hover\:bg-ubuntu:hover {
+  background-color: #DD4814;
+}
+
+.hover\:bg-apache:hover {
+  background-color: #303284;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1805,6 +1966,74 @@ video {
 
 .focus\:bg-pink-900:focus {
   background-color: #702459;
+}
+
+.focus\:bg-html:focus {
+  background-color: #e54d26;
+}
+
+.focus\:bg-css:focus {
+  background-color: #3d8fc6;
+}
+
+.focus\:bg-js:focus {
+  background-color: #f0db4f;
+}
+
+.focus\:bg-react:focus {
+  background-color: #61dafb;
+}
+
+.focus\:bg-php:focus {
+  background-color: #6181b6;
+}
+
+.focus\:bg-mysql:focus {
+  background-color: #00618a;
+}
+
+.focus\:bg-node:focus {
+  background-color: #83CD29;
+}
+
+.focus\:bg-bootstrap:focus {
+  background-color: #59407f;
+}
+
+.focus\:bg-jquery:focus {
+  background-color: #0769ad;
+}
+
+.focus\:bg-git:focus {
+  background-color: #f34f29;
+}
+
+.focus\:bg-github:focus {
+  background-color: #181616;
+}
+
+.focus\:bg-npm:focus {
+  background-color: #cb3837;
+}
+
+.focus\:bg-webpack:focus {
+  background-color: #1C78C0;
+}
+
+.focus\:bg-express:focus {
+  background-color: #444;
+}
+
+.focus\:bg-aws:focus {
+  background-color: #F7A80D;
+}
+
+.focus\:bg-ubuntu:focus {
+  background-color: #DD4814;
+}
+
+.focus\:bg-apache:focus {
+  background-color: #303284;
 }
 
 .bg-bottom {
@@ -2259,6 +2488,74 @@ video {
   border-color: #702459;
 }
 
+.border-html {
+  border-color: #e54d26;
+}
+
+.border-css {
+  border-color: #3d8fc6;
+}
+
+.border-js {
+  border-color: #f0db4f;
+}
+
+.border-react {
+  border-color: #61dafb;
+}
+
+.border-php {
+  border-color: #6181b6;
+}
+
+.border-mysql {
+  border-color: #00618a;
+}
+
+.border-node {
+  border-color: #83CD29;
+}
+
+.border-bootstrap {
+  border-color: #59407f;
+}
+
+.border-jquery {
+  border-color: #0769ad;
+}
+
+.border-git {
+  border-color: #f34f29;
+}
+
+.border-github {
+  border-color: #181616;
+}
+
+.border-npm {
+  border-color: #cb3837;
+}
+
+.border-webpack {
+  border-color: #1C78C0;
+}
+
+.border-express {
+  border-color: #444;
+}
+
+.border-aws {
+  border-color: #F7A80D;
+}
+
+.border-ubuntu {
+  border-color: #DD4814;
+}
+
+.border-apache {
+  border-color: #303284;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2631,6 +2928,74 @@ video {
   border-color: #702459;
 }
 
+.hover\:border-html:hover {
+  border-color: #e54d26;
+}
+
+.hover\:border-css:hover {
+  border-color: #3d8fc6;
+}
+
+.hover\:border-js:hover {
+  border-color: #f0db4f;
+}
+
+.hover\:border-react:hover {
+  border-color: #61dafb;
+}
+
+.hover\:border-php:hover {
+  border-color: #6181b6;
+}
+
+.hover\:border-mysql:hover {
+  border-color: #00618a;
+}
+
+.hover\:border-node:hover {
+  border-color: #83CD29;
+}
+
+.hover\:border-bootstrap:hover {
+  border-color: #59407f;
+}
+
+.hover\:border-jquery:hover {
+  border-color: #0769ad;
+}
+
+.hover\:border-git:hover {
+  border-color: #f34f29;
+}
+
+.hover\:border-github:hover {
+  border-color: #181616;
+}
+
+.hover\:border-npm:hover {
+  border-color: #cb3837;
+}
+
+.hover\:border-webpack:hover {
+  border-color: #1C78C0;
+}
+
+.hover\:border-express:hover {
+  border-color: #444;
+}
+
+.hover\:border-aws:hover {
+  border-color: #F7A80D;
+}
+
+.hover\:border-ubuntu:hover {
+  border-color: #DD4814;
+}
+
+.hover\:border-apache:hover {
+  border-color: #303284;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -3001,6 +3366,74 @@ video {
 
 .focus\:border-pink-900:focus {
   border-color: #702459;
+}
+
+.focus\:border-html:focus {
+  border-color: #e54d26;
+}
+
+.focus\:border-css:focus {
+  border-color: #3d8fc6;
+}
+
+.focus\:border-js:focus {
+  border-color: #f0db4f;
+}
+
+.focus\:border-react:focus {
+  border-color: #61dafb;
+}
+
+.focus\:border-php:focus {
+  border-color: #6181b6;
+}
+
+.focus\:border-mysql:focus {
+  border-color: #00618a;
+}
+
+.focus\:border-node:focus {
+  border-color: #83CD29;
+}
+
+.focus\:border-bootstrap:focus {
+  border-color: #59407f;
+}
+
+.focus\:border-jquery:focus {
+  border-color: #0769ad;
+}
+
+.focus\:border-git:focus {
+  border-color: #f34f29;
+}
+
+.focus\:border-github:focus {
+  border-color: #181616;
+}
+
+.focus\:border-npm:focus {
+  border-color: #cb3837;
+}
+
+.focus\:border-webpack:focus {
+  border-color: #1C78C0;
+}
+
+.focus\:border-express:focus {
+  border-color: #444;
+}
+
+.focus\:border-aws:focus {
+  border-color: #F7A80D;
+}
+
+.focus\:border-ubuntu:focus {
+  border-color: #DD4814;
+}
+
+.focus\:border-apache:focus {
+  border-color: #303284;
 }
 
 .rounded-none {
@@ -7733,6 +8166,346 @@ video {
   color: #702459;
 }
 
+.placeholder-html::-webkit-input-placeholder {
+  color: #e54d26;
+}
+
+.placeholder-html::-moz-placeholder {
+  color: #e54d26;
+}
+
+.placeholder-html:-ms-input-placeholder {
+  color: #e54d26;
+}
+
+.placeholder-html::-ms-input-placeholder {
+  color: #e54d26;
+}
+
+.placeholder-html::placeholder {
+  color: #e54d26;
+}
+
+.placeholder-css::-webkit-input-placeholder {
+  color: #3d8fc6;
+}
+
+.placeholder-css::-moz-placeholder {
+  color: #3d8fc6;
+}
+
+.placeholder-css:-ms-input-placeholder {
+  color: #3d8fc6;
+}
+
+.placeholder-css::-ms-input-placeholder {
+  color: #3d8fc6;
+}
+
+.placeholder-css::placeholder {
+  color: #3d8fc6;
+}
+
+.placeholder-js::-webkit-input-placeholder {
+  color: #f0db4f;
+}
+
+.placeholder-js::-moz-placeholder {
+  color: #f0db4f;
+}
+
+.placeholder-js:-ms-input-placeholder {
+  color: #f0db4f;
+}
+
+.placeholder-js::-ms-input-placeholder {
+  color: #f0db4f;
+}
+
+.placeholder-js::placeholder {
+  color: #f0db4f;
+}
+
+.placeholder-react::-webkit-input-placeholder {
+  color: #61dafb;
+}
+
+.placeholder-react::-moz-placeholder {
+  color: #61dafb;
+}
+
+.placeholder-react:-ms-input-placeholder {
+  color: #61dafb;
+}
+
+.placeholder-react::-ms-input-placeholder {
+  color: #61dafb;
+}
+
+.placeholder-react::placeholder {
+  color: #61dafb;
+}
+
+.placeholder-php::-webkit-input-placeholder {
+  color: #6181b6;
+}
+
+.placeholder-php::-moz-placeholder {
+  color: #6181b6;
+}
+
+.placeholder-php:-ms-input-placeholder {
+  color: #6181b6;
+}
+
+.placeholder-php::-ms-input-placeholder {
+  color: #6181b6;
+}
+
+.placeholder-php::placeholder {
+  color: #6181b6;
+}
+
+.placeholder-mysql::-webkit-input-placeholder {
+  color: #00618a;
+}
+
+.placeholder-mysql::-moz-placeholder {
+  color: #00618a;
+}
+
+.placeholder-mysql:-ms-input-placeholder {
+  color: #00618a;
+}
+
+.placeholder-mysql::-ms-input-placeholder {
+  color: #00618a;
+}
+
+.placeholder-mysql::placeholder {
+  color: #00618a;
+}
+
+.placeholder-node::-webkit-input-placeholder {
+  color: #83CD29;
+}
+
+.placeholder-node::-moz-placeholder {
+  color: #83CD29;
+}
+
+.placeholder-node:-ms-input-placeholder {
+  color: #83CD29;
+}
+
+.placeholder-node::-ms-input-placeholder {
+  color: #83CD29;
+}
+
+.placeholder-node::placeholder {
+  color: #83CD29;
+}
+
+.placeholder-bootstrap::-webkit-input-placeholder {
+  color: #59407f;
+}
+
+.placeholder-bootstrap::-moz-placeholder {
+  color: #59407f;
+}
+
+.placeholder-bootstrap:-ms-input-placeholder {
+  color: #59407f;
+}
+
+.placeholder-bootstrap::-ms-input-placeholder {
+  color: #59407f;
+}
+
+.placeholder-bootstrap::placeholder {
+  color: #59407f;
+}
+
+.placeholder-jquery::-webkit-input-placeholder {
+  color: #0769ad;
+}
+
+.placeholder-jquery::-moz-placeholder {
+  color: #0769ad;
+}
+
+.placeholder-jquery:-ms-input-placeholder {
+  color: #0769ad;
+}
+
+.placeholder-jquery::-ms-input-placeholder {
+  color: #0769ad;
+}
+
+.placeholder-jquery::placeholder {
+  color: #0769ad;
+}
+
+.placeholder-git::-webkit-input-placeholder {
+  color: #f34f29;
+}
+
+.placeholder-git::-moz-placeholder {
+  color: #f34f29;
+}
+
+.placeholder-git:-ms-input-placeholder {
+  color: #f34f29;
+}
+
+.placeholder-git::-ms-input-placeholder {
+  color: #f34f29;
+}
+
+.placeholder-git::placeholder {
+  color: #f34f29;
+}
+
+.placeholder-github::-webkit-input-placeholder {
+  color: #181616;
+}
+
+.placeholder-github::-moz-placeholder {
+  color: #181616;
+}
+
+.placeholder-github:-ms-input-placeholder {
+  color: #181616;
+}
+
+.placeholder-github::-ms-input-placeholder {
+  color: #181616;
+}
+
+.placeholder-github::placeholder {
+  color: #181616;
+}
+
+.placeholder-npm::-webkit-input-placeholder {
+  color: #cb3837;
+}
+
+.placeholder-npm::-moz-placeholder {
+  color: #cb3837;
+}
+
+.placeholder-npm:-ms-input-placeholder {
+  color: #cb3837;
+}
+
+.placeholder-npm::-ms-input-placeholder {
+  color: #cb3837;
+}
+
+.placeholder-npm::placeholder {
+  color: #cb3837;
+}
+
+.placeholder-webpack::-webkit-input-placeholder {
+  color: #1C78C0;
+}
+
+.placeholder-webpack::-moz-placeholder {
+  color: #1C78C0;
+}
+
+.placeholder-webpack:-ms-input-placeholder {
+  color: #1C78C0;
+}
+
+.placeholder-webpack::-ms-input-placeholder {
+  color: #1C78C0;
+}
+
+.placeholder-webpack::placeholder {
+  color: #1C78C0;
+}
+
+.placeholder-express::-webkit-input-placeholder {
+  color: #444;
+}
+
+.placeholder-express::-moz-placeholder {
+  color: #444;
+}
+
+.placeholder-express:-ms-input-placeholder {
+  color: #444;
+}
+
+.placeholder-express::-ms-input-placeholder {
+  color: #444;
+}
+
+.placeholder-express::placeholder {
+  color: #444;
+}
+
+.placeholder-aws::-webkit-input-placeholder {
+  color: #F7A80D;
+}
+
+.placeholder-aws::-moz-placeholder {
+  color: #F7A80D;
+}
+
+.placeholder-aws:-ms-input-placeholder {
+  color: #F7A80D;
+}
+
+.placeholder-aws::-ms-input-placeholder {
+  color: #F7A80D;
+}
+
+.placeholder-aws::placeholder {
+  color: #F7A80D;
+}
+
+.placeholder-ubuntu::-webkit-input-placeholder {
+  color: #DD4814;
+}
+
+.placeholder-ubuntu::-moz-placeholder {
+  color: #DD4814;
+}
+
+.placeholder-ubuntu:-ms-input-placeholder {
+  color: #DD4814;
+}
+
+.placeholder-ubuntu::-ms-input-placeholder {
+  color: #DD4814;
+}
+
+.placeholder-ubuntu::placeholder {
+  color: #DD4814;
+}
+
+.placeholder-apache::-webkit-input-placeholder {
+  color: #303284;
+}
+
+.placeholder-apache::-moz-placeholder {
+  color: #303284;
+}
+
+.placeholder-apache:-ms-input-placeholder {
+  color: #303284;
+}
+
+.placeholder-apache::-ms-input-placeholder {
+  color: #303284;
+}
+
+.placeholder-apache::placeholder {
+  color: #303284;
+}
+
 .focus\:placeholder-transparent:focus::-webkit-input-placeholder {
   color: transparent;
 }
@@ -9593,6 +10366,346 @@ video {
   color: #702459;
 }
 
+.focus\:placeholder-html:focus::-webkit-input-placeholder {
+  color: #e54d26;
+}
+
+.focus\:placeholder-html:focus::-moz-placeholder {
+  color: #e54d26;
+}
+
+.focus\:placeholder-html:focus:-ms-input-placeholder {
+  color: #e54d26;
+}
+
+.focus\:placeholder-html:focus::-ms-input-placeholder {
+  color: #e54d26;
+}
+
+.focus\:placeholder-html:focus::placeholder {
+  color: #e54d26;
+}
+
+.focus\:placeholder-css:focus::-webkit-input-placeholder {
+  color: #3d8fc6;
+}
+
+.focus\:placeholder-css:focus::-moz-placeholder {
+  color: #3d8fc6;
+}
+
+.focus\:placeholder-css:focus:-ms-input-placeholder {
+  color: #3d8fc6;
+}
+
+.focus\:placeholder-css:focus::-ms-input-placeholder {
+  color: #3d8fc6;
+}
+
+.focus\:placeholder-css:focus::placeholder {
+  color: #3d8fc6;
+}
+
+.focus\:placeholder-js:focus::-webkit-input-placeholder {
+  color: #f0db4f;
+}
+
+.focus\:placeholder-js:focus::-moz-placeholder {
+  color: #f0db4f;
+}
+
+.focus\:placeholder-js:focus:-ms-input-placeholder {
+  color: #f0db4f;
+}
+
+.focus\:placeholder-js:focus::-ms-input-placeholder {
+  color: #f0db4f;
+}
+
+.focus\:placeholder-js:focus::placeholder {
+  color: #f0db4f;
+}
+
+.focus\:placeholder-react:focus::-webkit-input-placeholder {
+  color: #61dafb;
+}
+
+.focus\:placeholder-react:focus::-moz-placeholder {
+  color: #61dafb;
+}
+
+.focus\:placeholder-react:focus:-ms-input-placeholder {
+  color: #61dafb;
+}
+
+.focus\:placeholder-react:focus::-ms-input-placeholder {
+  color: #61dafb;
+}
+
+.focus\:placeholder-react:focus::placeholder {
+  color: #61dafb;
+}
+
+.focus\:placeholder-php:focus::-webkit-input-placeholder {
+  color: #6181b6;
+}
+
+.focus\:placeholder-php:focus::-moz-placeholder {
+  color: #6181b6;
+}
+
+.focus\:placeholder-php:focus:-ms-input-placeholder {
+  color: #6181b6;
+}
+
+.focus\:placeholder-php:focus::-ms-input-placeholder {
+  color: #6181b6;
+}
+
+.focus\:placeholder-php:focus::placeholder {
+  color: #6181b6;
+}
+
+.focus\:placeholder-mysql:focus::-webkit-input-placeholder {
+  color: #00618a;
+}
+
+.focus\:placeholder-mysql:focus::-moz-placeholder {
+  color: #00618a;
+}
+
+.focus\:placeholder-mysql:focus:-ms-input-placeholder {
+  color: #00618a;
+}
+
+.focus\:placeholder-mysql:focus::-ms-input-placeholder {
+  color: #00618a;
+}
+
+.focus\:placeholder-mysql:focus::placeholder {
+  color: #00618a;
+}
+
+.focus\:placeholder-node:focus::-webkit-input-placeholder {
+  color: #83CD29;
+}
+
+.focus\:placeholder-node:focus::-moz-placeholder {
+  color: #83CD29;
+}
+
+.focus\:placeholder-node:focus:-ms-input-placeholder {
+  color: #83CD29;
+}
+
+.focus\:placeholder-node:focus::-ms-input-placeholder {
+  color: #83CD29;
+}
+
+.focus\:placeholder-node:focus::placeholder {
+  color: #83CD29;
+}
+
+.focus\:placeholder-bootstrap:focus::-webkit-input-placeholder {
+  color: #59407f;
+}
+
+.focus\:placeholder-bootstrap:focus::-moz-placeholder {
+  color: #59407f;
+}
+
+.focus\:placeholder-bootstrap:focus:-ms-input-placeholder {
+  color: #59407f;
+}
+
+.focus\:placeholder-bootstrap:focus::-ms-input-placeholder {
+  color: #59407f;
+}
+
+.focus\:placeholder-bootstrap:focus::placeholder {
+  color: #59407f;
+}
+
+.focus\:placeholder-jquery:focus::-webkit-input-placeholder {
+  color: #0769ad;
+}
+
+.focus\:placeholder-jquery:focus::-moz-placeholder {
+  color: #0769ad;
+}
+
+.focus\:placeholder-jquery:focus:-ms-input-placeholder {
+  color: #0769ad;
+}
+
+.focus\:placeholder-jquery:focus::-ms-input-placeholder {
+  color: #0769ad;
+}
+
+.focus\:placeholder-jquery:focus::placeholder {
+  color: #0769ad;
+}
+
+.focus\:placeholder-git:focus::-webkit-input-placeholder {
+  color: #f34f29;
+}
+
+.focus\:placeholder-git:focus::-moz-placeholder {
+  color: #f34f29;
+}
+
+.focus\:placeholder-git:focus:-ms-input-placeholder {
+  color: #f34f29;
+}
+
+.focus\:placeholder-git:focus::-ms-input-placeholder {
+  color: #f34f29;
+}
+
+.focus\:placeholder-git:focus::placeholder {
+  color: #f34f29;
+}
+
+.focus\:placeholder-github:focus::-webkit-input-placeholder {
+  color: #181616;
+}
+
+.focus\:placeholder-github:focus::-moz-placeholder {
+  color: #181616;
+}
+
+.focus\:placeholder-github:focus:-ms-input-placeholder {
+  color: #181616;
+}
+
+.focus\:placeholder-github:focus::-ms-input-placeholder {
+  color: #181616;
+}
+
+.focus\:placeholder-github:focus::placeholder {
+  color: #181616;
+}
+
+.focus\:placeholder-npm:focus::-webkit-input-placeholder {
+  color: #cb3837;
+}
+
+.focus\:placeholder-npm:focus::-moz-placeholder {
+  color: #cb3837;
+}
+
+.focus\:placeholder-npm:focus:-ms-input-placeholder {
+  color: #cb3837;
+}
+
+.focus\:placeholder-npm:focus::-ms-input-placeholder {
+  color: #cb3837;
+}
+
+.focus\:placeholder-npm:focus::placeholder {
+  color: #cb3837;
+}
+
+.focus\:placeholder-webpack:focus::-webkit-input-placeholder {
+  color: #1C78C0;
+}
+
+.focus\:placeholder-webpack:focus::-moz-placeholder {
+  color: #1C78C0;
+}
+
+.focus\:placeholder-webpack:focus:-ms-input-placeholder {
+  color: #1C78C0;
+}
+
+.focus\:placeholder-webpack:focus::-ms-input-placeholder {
+  color: #1C78C0;
+}
+
+.focus\:placeholder-webpack:focus::placeholder {
+  color: #1C78C0;
+}
+
+.focus\:placeholder-express:focus::-webkit-input-placeholder {
+  color: #444;
+}
+
+.focus\:placeholder-express:focus::-moz-placeholder {
+  color: #444;
+}
+
+.focus\:placeholder-express:focus:-ms-input-placeholder {
+  color: #444;
+}
+
+.focus\:placeholder-express:focus::-ms-input-placeholder {
+  color: #444;
+}
+
+.focus\:placeholder-express:focus::placeholder {
+  color: #444;
+}
+
+.focus\:placeholder-aws:focus::-webkit-input-placeholder {
+  color: #F7A80D;
+}
+
+.focus\:placeholder-aws:focus::-moz-placeholder {
+  color: #F7A80D;
+}
+
+.focus\:placeholder-aws:focus:-ms-input-placeholder {
+  color: #F7A80D;
+}
+
+.focus\:placeholder-aws:focus::-ms-input-placeholder {
+  color: #F7A80D;
+}
+
+.focus\:placeholder-aws:focus::placeholder {
+  color: #F7A80D;
+}
+
+.focus\:placeholder-ubuntu:focus::-webkit-input-placeholder {
+  color: #DD4814;
+}
+
+.focus\:placeholder-ubuntu:focus::-moz-placeholder {
+  color: #DD4814;
+}
+
+.focus\:placeholder-ubuntu:focus:-ms-input-placeholder {
+  color: #DD4814;
+}
+
+.focus\:placeholder-ubuntu:focus::-ms-input-placeholder {
+  color: #DD4814;
+}
+
+.focus\:placeholder-ubuntu:focus::placeholder {
+  color: #DD4814;
+}
+
+.focus\:placeholder-apache:focus::-webkit-input-placeholder {
+  color: #303284;
+}
+
+.focus\:placeholder-apache:focus::-moz-placeholder {
+  color: #303284;
+}
+
+.focus\:placeholder-apache:focus:-ms-input-placeholder {
+  color: #303284;
+}
+
+.focus\:placeholder-apache:focus::-ms-input-placeholder {
+  color: #303284;
+}
+
+.focus\:placeholder-apache:focus::placeholder {
+  color: #303284;
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -10204,6 +11317,74 @@ video {
   color: #702459;
 }
 
+.text-html {
+  color: #e54d26;
+}
+
+.text-css {
+  color: #3d8fc6;
+}
+
+.text-js {
+  color: #f0db4f;
+}
+
+.text-react {
+  color: #61dafb;
+}
+
+.text-php {
+  color: #6181b6;
+}
+
+.text-mysql {
+  color: #00618a;
+}
+
+.text-node {
+  color: #83CD29;
+}
+
+.text-bootstrap {
+  color: #59407f;
+}
+
+.text-jquery {
+  color: #0769ad;
+}
+
+.text-git {
+  color: #f34f29;
+}
+
+.text-github {
+  color: #181616;
+}
+
+.text-npm {
+  color: #cb3837;
+}
+
+.text-webpack {
+  color: #1C78C0;
+}
+
+.text-express {
+  color: #444;
+}
+
+.text-aws {
+  color: #F7A80D;
+}
+
+.text-ubuntu {
+  color: #DD4814;
+}
+
+.text-apache {
+  color: #303284;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -10576,6 +11757,74 @@ video {
   color: #702459;
 }
 
+.hover\:text-html:hover {
+  color: #e54d26;
+}
+
+.hover\:text-css:hover {
+  color: #3d8fc6;
+}
+
+.hover\:text-js:hover {
+  color: #f0db4f;
+}
+
+.hover\:text-react:hover {
+  color: #61dafb;
+}
+
+.hover\:text-php:hover {
+  color: #6181b6;
+}
+
+.hover\:text-mysql:hover {
+  color: #00618a;
+}
+
+.hover\:text-node:hover {
+  color: #83CD29;
+}
+
+.hover\:text-bootstrap:hover {
+  color: #59407f;
+}
+
+.hover\:text-jquery:hover {
+  color: #0769ad;
+}
+
+.hover\:text-git:hover {
+  color: #f34f29;
+}
+
+.hover\:text-github:hover {
+  color: #181616;
+}
+
+.hover\:text-npm:hover {
+  color: #cb3837;
+}
+
+.hover\:text-webpack:hover {
+  color: #1C78C0;
+}
+
+.hover\:text-express:hover {
+  color: #444;
+}
+
+.hover\:text-aws:hover {
+  color: #F7A80D;
+}
+
+.hover\:text-ubuntu:hover {
+  color: #DD4814;
+}
+
+.hover\:text-apache:hover {
+  color: #303284;
+}
+
 .focus\:text-transparent:focus {
   color: transparent;
 }
@@ -10946,6 +12195,74 @@ video {
 
 .focus\:text-pink-900:focus {
   color: #702459;
+}
+
+.focus\:text-html:focus {
+  color: #e54d26;
+}
+
+.focus\:text-css:focus {
+  color: #3d8fc6;
+}
+
+.focus\:text-js:focus {
+  color: #f0db4f;
+}
+
+.focus\:text-react:focus {
+  color: #61dafb;
+}
+
+.focus\:text-php:focus {
+  color: #6181b6;
+}
+
+.focus\:text-mysql:focus {
+  color: #00618a;
+}
+
+.focus\:text-node:focus {
+  color: #83CD29;
+}
+
+.focus\:text-bootstrap:focus {
+  color: #59407f;
+}
+
+.focus\:text-jquery:focus {
+  color: #0769ad;
+}
+
+.focus\:text-git:focus {
+  color: #f34f29;
+}
+
+.focus\:text-github:focus {
+  color: #181616;
+}
+
+.focus\:text-npm:focus {
+  color: #cb3837;
+}
+
+.focus\:text-webpack:focus {
+  color: #1C78C0;
+}
+
+.focus\:text-express:focus {
+  color: #444;
+}
+
+.focus\:text-aws:focus {
+  color: #F7A80D;
+}
+
+.focus\:text-ubuntu:focus {
+  color: #DD4814;
+}
+
+.focus\:text-apache:focus {
+  color: #303284;
 }
 
 .text-xs {
@@ -11838,6 +13155,74 @@ video {
     background-color: #702459;
   }
 
+  .sm\:bg-html {
+    background-color: #e54d26;
+  }
+
+  .sm\:bg-css {
+    background-color: #3d8fc6;
+  }
+
+  .sm\:bg-js {
+    background-color: #f0db4f;
+  }
+
+  .sm\:bg-react {
+    background-color: #61dafb;
+  }
+
+  .sm\:bg-php {
+    background-color: #6181b6;
+  }
+
+  .sm\:bg-mysql {
+    background-color: #00618a;
+  }
+
+  .sm\:bg-node {
+    background-color: #83CD29;
+  }
+
+  .sm\:bg-bootstrap {
+    background-color: #59407f;
+  }
+
+  .sm\:bg-jquery {
+    background-color: #0769ad;
+  }
+
+  .sm\:bg-git {
+    background-color: #f34f29;
+  }
+
+  .sm\:bg-github {
+    background-color: #181616;
+  }
+
+  .sm\:bg-npm {
+    background-color: #cb3837;
+  }
+
+  .sm\:bg-webpack {
+    background-color: #1C78C0;
+  }
+
+  .sm\:bg-express {
+    background-color: #444;
+  }
+
+  .sm\:bg-aws {
+    background-color: #F7A80D;
+  }
+
+  .sm\:bg-ubuntu {
+    background-color: #DD4814;
+  }
+
+  .sm\:bg-apache {
+    background-color: #303284;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -12210,6 +13595,74 @@ video {
     background-color: #702459;
   }
 
+  .sm\:hover\:bg-html:hover {
+    background-color: #e54d26;
+  }
+
+  .sm\:hover\:bg-css:hover {
+    background-color: #3d8fc6;
+  }
+
+  .sm\:hover\:bg-js:hover {
+    background-color: #f0db4f;
+  }
+
+  .sm\:hover\:bg-react:hover {
+    background-color: #61dafb;
+  }
+
+  .sm\:hover\:bg-php:hover {
+    background-color: #6181b6;
+  }
+
+  .sm\:hover\:bg-mysql:hover {
+    background-color: #00618a;
+  }
+
+  .sm\:hover\:bg-node:hover {
+    background-color: #83CD29;
+  }
+
+  .sm\:hover\:bg-bootstrap:hover {
+    background-color: #59407f;
+  }
+
+  .sm\:hover\:bg-jquery:hover {
+    background-color: #0769ad;
+  }
+
+  .sm\:hover\:bg-git:hover {
+    background-color: #f34f29;
+  }
+
+  .sm\:hover\:bg-github:hover {
+    background-color: #181616;
+  }
+
+  .sm\:hover\:bg-npm:hover {
+    background-color: #cb3837;
+  }
+
+  .sm\:hover\:bg-webpack:hover {
+    background-color: #1C78C0;
+  }
+
+  .sm\:hover\:bg-express:hover {
+    background-color: #444;
+  }
+
+  .sm\:hover\:bg-aws:hover {
+    background-color: #F7A80D;
+  }
+
+  .sm\:hover\:bg-ubuntu:hover {
+    background-color: #DD4814;
+  }
+
+  .sm\:hover\:bg-apache:hover {
+    background-color: #303284;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -12580,6 +14033,74 @@ video {
 
   .sm\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .sm\:focus\:bg-html:focus {
+    background-color: #e54d26;
+  }
+
+  .sm\:focus\:bg-css:focus {
+    background-color: #3d8fc6;
+  }
+
+  .sm\:focus\:bg-js:focus {
+    background-color: #f0db4f;
+  }
+
+  .sm\:focus\:bg-react:focus {
+    background-color: #61dafb;
+  }
+
+  .sm\:focus\:bg-php:focus {
+    background-color: #6181b6;
+  }
+
+  .sm\:focus\:bg-mysql:focus {
+    background-color: #00618a;
+  }
+
+  .sm\:focus\:bg-node:focus {
+    background-color: #83CD29;
+  }
+
+  .sm\:focus\:bg-bootstrap:focus {
+    background-color: #59407f;
+  }
+
+  .sm\:focus\:bg-jquery:focus {
+    background-color: #0769ad;
+  }
+
+  .sm\:focus\:bg-git:focus {
+    background-color: #f34f29;
+  }
+
+  .sm\:focus\:bg-github:focus {
+    background-color: #181616;
+  }
+
+  .sm\:focus\:bg-npm:focus {
+    background-color: #cb3837;
+  }
+
+  .sm\:focus\:bg-webpack:focus {
+    background-color: #1C78C0;
+  }
+
+  .sm\:focus\:bg-express:focus {
+    background-color: #444;
+  }
+
+  .sm\:focus\:bg-aws:focus {
+    background-color: #F7A80D;
+  }
+
+  .sm\:focus\:bg-ubuntu:focus {
+    background-color: #DD4814;
+  }
+
+  .sm\:focus\:bg-apache:focus {
+    background-color: #303284;
   }
 
   .sm\:bg-bottom {
@@ -13034,6 +14555,74 @@ video {
     border-color: #702459;
   }
 
+  .sm\:border-html {
+    border-color: #e54d26;
+  }
+
+  .sm\:border-css {
+    border-color: #3d8fc6;
+  }
+
+  .sm\:border-js {
+    border-color: #f0db4f;
+  }
+
+  .sm\:border-react {
+    border-color: #61dafb;
+  }
+
+  .sm\:border-php {
+    border-color: #6181b6;
+  }
+
+  .sm\:border-mysql {
+    border-color: #00618a;
+  }
+
+  .sm\:border-node {
+    border-color: #83CD29;
+  }
+
+  .sm\:border-bootstrap {
+    border-color: #59407f;
+  }
+
+  .sm\:border-jquery {
+    border-color: #0769ad;
+  }
+
+  .sm\:border-git {
+    border-color: #f34f29;
+  }
+
+  .sm\:border-github {
+    border-color: #181616;
+  }
+
+  .sm\:border-npm {
+    border-color: #cb3837;
+  }
+
+  .sm\:border-webpack {
+    border-color: #1C78C0;
+  }
+
+  .sm\:border-express {
+    border-color: #444;
+  }
+
+  .sm\:border-aws {
+    border-color: #F7A80D;
+  }
+
+  .sm\:border-ubuntu {
+    border-color: #DD4814;
+  }
+
+  .sm\:border-apache {
+    border-color: #303284;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -13406,6 +14995,74 @@ video {
     border-color: #702459;
   }
 
+  .sm\:hover\:border-html:hover {
+    border-color: #e54d26;
+  }
+
+  .sm\:hover\:border-css:hover {
+    border-color: #3d8fc6;
+  }
+
+  .sm\:hover\:border-js:hover {
+    border-color: #f0db4f;
+  }
+
+  .sm\:hover\:border-react:hover {
+    border-color: #61dafb;
+  }
+
+  .sm\:hover\:border-php:hover {
+    border-color: #6181b6;
+  }
+
+  .sm\:hover\:border-mysql:hover {
+    border-color: #00618a;
+  }
+
+  .sm\:hover\:border-node:hover {
+    border-color: #83CD29;
+  }
+
+  .sm\:hover\:border-bootstrap:hover {
+    border-color: #59407f;
+  }
+
+  .sm\:hover\:border-jquery:hover {
+    border-color: #0769ad;
+  }
+
+  .sm\:hover\:border-git:hover {
+    border-color: #f34f29;
+  }
+
+  .sm\:hover\:border-github:hover {
+    border-color: #181616;
+  }
+
+  .sm\:hover\:border-npm:hover {
+    border-color: #cb3837;
+  }
+
+  .sm\:hover\:border-webpack:hover {
+    border-color: #1C78C0;
+  }
+
+  .sm\:hover\:border-express:hover {
+    border-color: #444;
+  }
+
+  .sm\:hover\:border-aws:hover {
+    border-color: #F7A80D;
+  }
+
+  .sm\:hover\:border-ubuntu:hover {
+    border-color: #DD4814;
+  }
+
+  .sm\:hover\:border-apache:hover {
+    border-color: #303284;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -13776,6 +15433,74 @@ video {
 
   .sm\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .sm\:focus\:border-html:focus {
+    border-color: #e54d26;
+  }
+
+  .sm\:focus\:border-css:focus {
+    border-color: #3d8fc6;
+  }
+
+  .sm\:focus\:border-js:focus {
+    border-color: #f0db4f;
+  }
+
+  .sm\:focus\:border-react:focus {
+    border-color: #61dafb;
+  }
+
+  .sm\:focus\:border-php:focus {
+    border-color: #6181b6;
+  }
+
+  .sm\:focus\:border-mysql:focus {
+    border-color: #00618a;
+  }
+
+  .sm\:focus\:border-node:focus {
+    border-color: #83CD29;
+  }
+
+  .sm\:focus\:border-bootstrap:focus {
+    border-color: #59407f;
+  }
+
+  .sm\:focus\:border-jquery:focus {
+    border-color: #0769ad;
+  }
+
+  .sm\:focus\:border-git:focus {
+    border-color: #f34f29;
+  }
+
+  .sm\:focus\:border-github:focus {
+    border-color: #181616;
+  }
+
+  .sm\:focus\:border-npm:focus {
+    border-color: #cb3837;
+  }
+
+  .sm\:focus\:border-webpack:focus {
+    border-color: #1C78C0;
+  }
+
+  .sm\:focus\:border-express:focus {
+    border-color: #444;
+  }
+
+  .sm\:focus\:border-aws:focus {
+    border-color: #F7A80D;
+  }
+
+  .sm\:focus\:border-ubuntu:focus {
+    border-color: #DD4814;
+  }
+
+  .sm\:focus\:border-apache:focus {
+    border-color: #303284;
   }
 
   .sm\:rounded-none {
@@ -18508,6 +20233,346 @@ video {
     color: #702459;
   }
 
+  .sm\:placeholder-html::-webkit-input-placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:placeholder-html::-moz-placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:placeholder-html:-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:placeholder-html::-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:placeholder-html::placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:placeholder-css::-webkit-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:placeholder-css::-moz-placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:placeholder-css:-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:placeholder-css::-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:placeholder-css::placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:placeholder-js::-webkit-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:placeholder-js::-moz-placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:placeholder-js:-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:placeholder-js::-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:placeholder-js::placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:placeholder-react::-webkit-input-placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:placeholder-react::-moz-placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:placeholder-react:-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:placeholder-react::-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:placeholder-react::placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:placeholder-php::-webkit-input-placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:placeholder-php::-moz-placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:placeholder-php:-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:placeholder-php::-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:placeholder-php::placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:placeholder-mysql::-webkit-input-placeholder {
+    color: #00618a;
+  }
+
+  .sm\:placeholder-mysql::-moz-placeholder {
+    color: #00618a;
+  }
+
+  .sm\:placeholder-mysql:-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .sm\:placeholder-mysql::-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .sm\:placeholder-mysql::placeholder {
+    color: #00618a;
+  }
+
+  .sm\:placeholder-node::-webkit-input-placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:placeholder-node::-moz-placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:placeholder-node:-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:placeholder-node::-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:placeholder-node::placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:placeholder-bootstrap::-webkit-input-placeholder {
+    color: #59407f;
+  }
+
+  .sm\:placeholder-bootstrap::-moz-placeholder {
+    color: #59407f;
+  }
+
+  .sm\:placeholder-bootstrap:-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .sm\:placeholder-bootstrap::-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .sm\:placeholder-bootstrap::placeholder {
+    color: #59407f;
+  }
+
+  .sm\:placeholder-jquery::-webkit-input-placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:placeholder-jquery::-moz-placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:placeholder-jquery:-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:placeholder-jquery::-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:placeholder-jquery::placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:placeholder-git::-webkit-input-placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:placeholder-git::-moz-placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:placeholder-git:-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:placeholder-git::-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:placeholder-git::placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:placeholder-github::-webkit-input-placeholder {
+    color: #181616;
+  }
+
+  .sm\:placeholder-github::-moz-placeholder {
+    color: #181616;
+  }
+
+  .sm\:placeholder-github:-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .sm\:placeholder-github::-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .sm\:placeholder-github::placeholder {
+    color: #181616;
+  }
+
+  .sm\:placeholder-npm::-webkit-input-placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:placeholder-npm::-moz-placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:placeholder-npm:-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:placeholder-npm::-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:placeholder-npm::placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:placeholder-webpack::-webkit-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:placeholder-webpack::-moz-placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:placeholder-webpack:-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:placeholder-webpack::-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:placeholder-webpack::placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:placeholder-express::-webkit-input-placeholder {
+    color: #444;
+  }
+
+  .sm\:placeholder-express::-moz-placeholder {
+    color: #444;
+  }
+
+  .sm\:placeholder-express:-ms-input-placeholder {
+    color: #444;
+  }
+
+  .sm\:placeholder-express::-ms-input-placeholder {
+    color: #444;
+  }
+
+  .sm\:placeholder-express::placeholder {
+    color: #444;
+  }
+
+  .sm\:placeholder-aws::-webkit-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:placeholder-aws::-moz-placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:placeholder-aws:-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:placeholder-aws::-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:placeholder-aws::placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:placeholder-ubuntu::-webkit-input-placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:placeholder-ubuntu::-moz-placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:placeholder-ubuntu:-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:placeholder-ubuntu::-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:placeholder-ubuntu::placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:placeholder-apache::-webkit-input-placeholder {
+    color: #303284;
+  }
+
+  .sm\:placeholder-apache::-moz-placeholder {
+    color: #303284;
+  }
+
+  .sm\:placeholder-apache:-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .sm\:placeholder-apache::-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .sm\:placeholder-apache::placeholder {
+    color: #303284;
+  }
+
   .sm\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -20368,6 +22433,346 @@ video {
     color: #702459;
   }
 
+  .sm\:focus\:placeholder-html:focus::-webkit-input-placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:focus\:placeholder-html:focus::-moz-placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:focus\:placeholder-html:focus:-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:focus\:placeholder-html:focus::-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:focus\:placeholder-html:focus::placeholder {
+    color: #e54d26;
+  }
+
+  .sm\:focus\:placeholder-css:focus::-webkit-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:focus\:placeholder-css:focus::-moz-placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:focus\:placeholder-css:focus:-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:focus\:placeholder-css:focus::-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:focus\:placeholder-css:focus::placeholder {
+    color: #3d8fc6;
+  }
+
+  .sm\:focus\:placeholder-js:focus::-webkit-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:focus\:placeholder-js:focus::-moz-placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:focus\:placeholder-js:focus:-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:focus\:placeholder-js:focus::-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:focus\:placeholder-js:focus::placeholder {
+    color: #f0db4f;
+  }
+
+  .sm\:focus\:placeholder-react:focus::-webkit-input-placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:focus\:placeholder-react:focus::-moz-placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:focus\:placeholder-react:focus:-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:focus\:placeholder-react:focus::-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:focus\:placeholder-react:focus::placeholder {
+    color: #61dafb;
+  }
+
+  .sm\:focus\:placeholder-php:focus::-webkit-input-placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:focus\:placeholder-php:focus::-moz-placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:focus\:placeholder-php:focus:-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:focus\:placeholder-php:focus::-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:focus\:placeholder-php:focus::placeholder {
+    color: #6181b6;
+  }
+
+  .sm\:focus\:placeholder-mysql:focus::-webkit-input-placeholder {
+    color: #00618a;
+  }
+
+  .sm\:focus\:placeholder-mysql:focus::-moz-placeholder {
+    color: #00618a;
+  }
+
+  .sm\:focus\:placeholder-mysql:focus:-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .sm\:focus\:placeholder-mysql:focus::-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .sm\:focus\:placeholder-mysql:focus::placeholder {
+    color: #00618a;
+  }
+
+  .sm\:focus\:placeholder-node:focus::-webkit-input-placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:focus\:placeholder-node:focus::-moz-placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:focus\:placeholder-node:focus:-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:focus\:placeholder-node:focus::-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:focus\:placeholder-node:focus::placeholder {
+    color: #83CD29;
+  }
+
+  .sm\:focus\:placeholder-bootstrap:focus::-webkit-input-placeholder {
+    color: #59407f;
+  }
+
+  .sm\:focus\:placeholder-bootstrap:focus::-moz-placeholder {
+    color: #59407f;
+  }
+
+  .sm\:focus\:placeholder-bootstrap:focus:-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .sm\:focus\:placeholder-bootstrap:focus::-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .sm\:focus\:placeholder-bootstrap:focus::placeholder {
+    color: #59407f;
+  }
+
+  .sm\:focus\:placeholder-jquery:focus::-webkit-input-placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:focus\:placeholder-jquery:focus::-moz-placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:focus\:placeholder-jquery:focus:-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:focus\:placeholder-jquery:focus::-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:focus\:placeholder-jquery:focus::placeholder {
+    color: #0769ad;
+  }
+
+  .sm\:focus\:placeholder-git:focus::-webkit-input-placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:focus\:placeholder-git:focus::-moz-placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:focus\:placeholder-git:focus:-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:focus\:placeholder-git:focus::-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:focus\:placeholder-git:focus::placeholder {
+    color: #f34f29;
+  }
+
+  .sm\:focus\:placeholder-github:focus::-webkit-input-placeholder {
+    color: #181616;
+  }
+
+  .sm\:focus\:placeholder-github:focus::-moz-placeholder {
+    color: #181616;
+  }
+
+  .sm\:focus\:placeholder-github:focus:-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .sm\:focus\:placeholder-github:focus::-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .sm\:focus\:placeholder-github:focus::placeholder {
+    color: #181616;
+  }
+
+  .sm\:focus\:placeholder-npm:focus::-webkit-input-placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:focus\:placeholder-npm:focus::-moz-placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:focus\:placeholder-npm:focus:-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:focus\:placeholder-npm:focus::-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:focus\:placeholder-npm:focus::placeholder {
+    color: #cb3837;
+  }
+
+  .sm\:focus\:placeholder-webpack:focus::-webkit-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:focus\:placeholder-webpack:focus::-moz-placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:focus\:placeholder-webpack:focus:-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:focus\:placeholder-webpack:focus::-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:focus\:placeholder-webpack:focus::placeholder {
+    color: #1C78C0;
+  }
+
+  .sm\:focus\:placeholder-express:focus::-webkit-input-placeholder {
+    color: #444;
+  }
+
+  .sm\:focus\:placeholder-express:focus::-moz-placeholder {
+    color: #444;
+  }
+
+  .sm\:focus\:placeholder-express:focus:-ms-input-placeholder {
+    color: #444;
+  }
+
+  .sm\:focus\:placeholder-express:focus::-ms-input-placeholder {
+    color: #444;
+  }
+
+  .sm\:focus\:placeholder-express:focus::placeholder {
+    color: #444;
+  }
+
+  .sm\:focus\:placeholder-aws:focus::-webkit-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:focus\:placeholder-aws:focus::-moz-placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:focus\:placeholder-aws:focus:-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:focus\:placeholder-aws:focus::-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:focus\:placeholder-aws:focus::placeholder {
+    color: #F7A80D;
+  }
+
+  .sm\:focus\:placeholder-ubuntu:focus::-webkit-input-placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:focus\:placeholder-ubuntu:focus::-moz-placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:focus\:placeholder-ubuntu:focus:-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:focus\:placeholder-ubuntu:focus::-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:focus\:placeholder-ubuntu:focus::placeholder {
+    color: #DD4814;
+  }
+
+  .sm\:focus\:placeholder-apache:focus::-webkit-input-placeholder {
+    color: #303284;
+  }
+
+  .sm\:focus\:placeholder-apache:focus::-moz-placeholder {
+    color: #303284;
+  }
+
+  .sm\:focus\:placeholder-apache:focus:-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .sm\:focus\:placeholder-apache:focus::-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .sm\:focus\:placeholder-apache:focus::placeholder {
+    color: #303284;
+  }
+
   .sm\:pointer-events-none {
     pointer-events: none;
   }
@@ -20979,6 +23384,74 @@ video {
     color: #702459;
   }
 
+  .sm\:text-html {
+    color: #e54d26;
+  }
+
+  .sm\:text-css {
+    color: #3d8fc6;
+  }
+
+  .sm\:text-js {
+    color: #f0db4f;
+  }
+
+  .sm\:text-react {
+    color: #61dafb;
+  }
+
+  .sm\:text-php {
+    color: #6181b6;
+  }
+
+  .sm\:text-mysql {
+    color: #00618a;
+  }
+
+  .sm\:text-node {
+    color: #83CD29;
+  }
+
+  .sm\:text-bootstrap {
+    color: #59407f;
+  }
+
+  .sm\:text-jquery {
+    color: #0769ad;
+  }
+
+  .sm\:text-git {
+    color: #f34f29;
+  }
+
+  .sm\:text-github {
+    color: #181616;
+  }
+
+  .sm\:text-npm {
+    color: #cb3837;
+  }
+
+  .sm\:text-webpack {
+    color: #1C78C0;
+  }
+
+  .sm\:text-express {
+    color: #444;
+  }
+
+  .sm\:text-aws {
+    color: #F7A80D;
+  }
+
+  .sm\:text-ubuntu {
+    color: #DD4814;
+  }
+
+  .sm\:text-apache {
+    color: #303284;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -21351,6 +23824,74 @@ video {
     color: #702459;
   }
 
+  .sm\:hover\:text-html:hover {
+    color: #e54d26;
+  }
+
+  .sm\:hover\:text-css:hover {
+    color: #3d8fc6;
+  }
+
+  .sm\:hover\:text-js:hover {
+    color: #f0db4f;
+  }
+
+  .sm\:hover\:text-react:hover {
+    color: #61dafb;
+  }
+
+  .sm\:hover\:text-php:hover {
+    color: #6181b6;
+  }
+
+  .sm\:hover\:text-mysql:hover {
+    color: #00618a;
+  }
+
+  .sm\:hover\:text-node:hover {
+    color: #83CD29;
+  }
+
+  .sm\:hover\:text-bootstrap:hover {
+    color: #59407f;
+  }
+
+  .sm\:hover\:text-jquery:hover {
+    color: #0769ad;
+  }
+
+  .sm\:hover\:text-git:hover {
+    color: #f34f29;
+  }
+
+  .sm\:hover\:text-github:hover {
+    color: #181616;
+  }
+
+  .sm\:hover\:text-npm:hover {
+    color: #cb3837;
+  }
+
+  .sm\:hover\:text-webpack:hover {
+    color: #1C78C0;
+  }
+
+  .sm\:hover\:text-express:hover {
+    color: #444;
+  }
+
+  .sm\:hover\:text-aws:hover {
+    color: #F7A80D;
+  }
+
+  .sm\:hover\:text-ubuntu:hover {
+    color: #DD4814;
+  }
+
+  .sm\:hover\:text-apache:hover {
+    color: #303284;
+  }
+
   .sm\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -21721,6 +24262,74 @@ video {
 
   .sm\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .sm\:focus\:text-html:focus {
+    color: #e54d26;
+  }
+
+  .sm\:focus\:text-css:focus {
+    color: #3d8fc6;
+  }
+
+  .sm\:focus\:text-js:focus {
+    color: #f0db4f;
+  }
+
+  .sm\:focus\:text-react:focus {
+    color: #61dafb;
+  }
+
+  .sm\:focus\:text-php:focus {
+    color: #6181b6;
+  }
+
+  .sm\:focus\:text-mysql:focus {
+    color: #00618a;
+  }
+
+  .sm\:focus\:text-node:focus {
+    color: #83CD29;
+  }
+
+  .sm\:focus\:text-bootstrap:focus {
+    color: #59407f;
+  }
+
+  .sm\:focus\:text-jquery:focus {
+    color: #0769ad;
+  }
+
+  .sm\:focus\:text-git:focus {
+    color: #f34f29;
+  }
+
+  .sm\:focus\:text-github:focus {
+    color: #181616;
+  }
+
+  .sm\:focus\:text-npm:focus {
+    color: #cb3837;
+  }
+
+  .sm\:focus\:text-webpack:focus {
+    color: #1C78C0;
+  }
+
+  .sm\:focus\:text-express:focus {
+    color: #444;
+  }
+
+  .sm\:focus\:text-aws:focus {
+    color: #F7A80D;
+  }
+
+  .sm\:focus\:text-ubuntu:focus {
+    color: #DD4814;
+  }
+
+  .sm\:focus\:text-apache:focus {
+    color: #303284;
   }
 
   .sm\:text-xs {
@@ -22614,6 +25223,74 @@ video {
     background-color: #702459;
   }
 
+  .md\:bg-html {
+    background-color: #e54d26;
+  }
+
+  .md\:bg-css {
+    background-color: #3d8fc6;
+  }
+
+  .md\:bg-js {
+    background-color: #f0db4f;
+  }
+
+  .md\:bg-react {
+    background-color: #61dafb;
+  }
+
+  .md\:bg-php {
+    background-color: #6181b6;
+  }
+
+  .md\:bg-mysql {
+    background-color: #00618a;
+  }
+
+  .md\:bg-node {
+    background-color: #83CD29;
+  }
+
+  .md\:bg-bootstrap {
+    background-color: #59407f;
+  }
+
+  .md\:bg-jquery {
+    background-color: #0769ad;
+  }
+
+  .md\:bg-git {
+    background-color: #f34f29;
+  }
+
+  .md\:bg-github {
+    background-color: #181616;
+  }
+
+  .md\:bg-npm {
+    background-color: #cb3837;
+  }
+
+  .md\:bg-webpack {
+    background-color: #1C78C0;
+  }
+
+  .md\:bg-express {
+    background-color: #444;
+  }
+
+  .md\:bg-aws {
+    background-color: #F7A80D;
+  }
+
+  .md\:bg-ubuntu {
+    background-color: #DD4814;
+  }
+
+  .md\:bg-apache {
+    background-color: #303284;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -22986,6 +25663,74 @@ video {
     background-color: #702459;
   }
 
+  .md\:hover\:bg-html:hover {
+    background-color: #e54d26;
+  }
+
+  .md\:hover\:bg-css:hover {
+    background-color: #3d8fc6;
+  }
+
+  .md\:hover\:bg-js:hover {
+    background-color: #f0db4f;
+  }
+
+  .md\:hover\:bg-react:hover {
+    background-color: #61dafb;
+  }
+
+  .md\:hover\:bg-php:hover {
+    background-color: #6181b6;
+  }
+
+  .md\:hover\:bg-mysql:hover {
+    background-color: #00618a;
+  }
+
+  .md\:hover\:bg-node:hover {
+    background-color: #83CD29;
+  }
+
+  .md\:hover\:bg-bootstrap:hover {
+    background-color: #59407f;
+  }
+
+  .md\:hover\:bg-jquery:hover {
+    background-color: #0769ad;
+  }
+
+  .md\:hover\:bg-git:hover {
+    background-color: #f34f29;
+  }
+
+  .md\:hover\:bg-github:hover {
+    background-color: #181616;
+  }
+
+  .md\:hover\:bg-npm:hover {
+    background-color: #cb3837;
+  }
+
+  .md\:hover\:bg-webpack:hover {
+    background-color: #1C78C0;
+  }
+
+  .md\:hover\:bg-express:hover {
+    background-color: #444;
+  }
+
+  .md\:hover\:bg-aws:hover {
+    background-color: #F7A80D;
+  }
+
+  .md\:hover\:bg-ubuntu:hover {
+    background-color: #DD4814;
+  }
+
+  .md\:hover\:bg-apache:hover {
+    background-color: #303284;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -23356,6 +26101,74 @@ video {
 
   .md\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .md\:focus\:bg-html:focus {
+    background-color: #e54d26;
+  }
+
+  .md\:focus\:bg-css:focus {
+    background-color: #3d8fc6;
+  }
+
+  .md\:focus\:bg-js:focus {
+    background-color: #f0db4f;
+  }
+
+  .md\:focus\:bg-react:focus {
+    background-color: #61dafb;
+  }
+
+  .md\:focus\:bg-php:focus {
+    background-color: #6181b6;
+  }
+
+  .md\:focus\:bg-mysql:focus {
+    background-color: #00618a;
+  }
+
+  .md\:focus\:bg-node:focus {
+    background-color: #83CD29;
+  }
+
+  .md\:focus\:bg-bootstrap:focus {
+    background-color: #59407f;
+  }
+
+  .md\:focus\:bg-jquery:focus {
+    background-color: #0769ad;
+  }
+
+  .md\:focus\:bg-git:focus {
+    background-color: #f34f29;
+  }
+
+  .md\:focus\:bg-github:focus {
+    background-color: #181616;
+  }
+
+  .md\:focus\:bg-npm:focus {
+    background-color: #cb3837;
+  }
+
+  .md\:focus\:bg-webpack:focus {
+    background-color: #1C78C0;
+  }
+
+  .md\:focus\:bg-express:focus {
+    background-color: #444;
+  }
+
+  .md\:focus\:bg-aws:focus {
+    background-color: #F7A80D;
+  }
+
+  .md\:focus\:bg-ubuntu:focus {
+    background-color: #DD4814;
+  }
+
+  .md\:focus\:bg-apache:focus {
+    background-color: #303284;
   }
 
   .md\:bg-bottom {
@@ -23810,6 +26623,74 @@ video {
     border-color: #702459;
   }
 
+  .md\:border-html {
+    border-color: #e54d26;
+  }
+
+  .md\:border-css {
+    border-color: #3d8fc6;
+  }
+
+  .md\:border-js {
+    border-color: #f0db4f;
+  }
+
+  .md\:border-react {
+    border-color: #61dafb;
+  }
+
+  .md\:border-php {
+    border-color: #6181b6;
+  }
+
+  .md\:border-mysql {
+    border-color: #00618a;
+  }
+
+  .md\:border-node {
+    border-color: #83CD29;
+  }
+
+  .md\:border-bootstrap {
+    border-color: #59407f;
+  }
+
+  .md\:border-jquery {
+    border-color: #0769ad;
+  }
+
+  .md\:border-git {
+    border-color: #f34f29;
+  }
+
+  .md\:border-github {
+    border-color: #181616;
+  }
+
+  .md\:border-npm {
+    border-color: #cb3837;
+  }
+
+  .md\:border-webpack {
+    border-color: #1C78C0;
+  }
+
+  .md\:border-express {
+    border-color: #444;
+  }
+
+  .md\:border-aws {
+    border-color: #F7A80D;
+  }
+
+  .md\:border-ubuntu {
+    border-color: #DD4814;
+  }
+
+  .md\:border-apache {
+    border-color: #303284;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -24182,6 +27063,74 @@ video {
     border-color: #702459;
   }
 
+  .md\:hover\:border-html:hover {
+    border-color: #e54d26;
+  }
+
+  .md\:hover\:border-css:hover {
+    border-color: #3d8fc6;
+  }
+
+  .md\:hover\:border-js:hover {
+    border-color: #f0db4f;
+  }
+
+  .md\:hover\:border-react:hover {
+    border-color: #61dafb;
+  }
+
+  .md\:hover\:border-php:hover {
+    border-color: #6181b6;
+  }
+
+  .md\:hover\:border-mysql:hover {
+    border-color: #00618a;
+  }
+
+  .md\:hover\:border-node:hover {
+    border-color: #83CD29;
+  }
+
+  .md\:hover\:border-bootstrap:hover {
+    border-color: #59407f;
+  }
+
+  .md\:hover\:border-jquery:hover {
+    border-color: #0769ad;
+  }
+
+  .md\:hover\:border-git:hover {
+    border-color: #f34f29;
+  }
+
+  .md\:hover\:border-github:hover {
+    border-color: #181616;
+  }
+
+  .md\:hover\:border-npm:hover {
+    border-color: #cb3837;
+  }
+
+  .md\:hover\:border-webpack:hover {
+    border-color: #1C78C0;
+  }
+
+  .md\:hover\:border-express:hover {
+    border-color: #444;
+  }
+
+  .md\:hover\:border-aws:hover {
+    border-color: #F7A80D;
+  }
+
+  .md\:hover\:border-ubuntu:hover {
+    border-color: #DD4814;
+  }
+
+  .md\:hover\:border-apache:hover {
+    border-color: #303284;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -24552,6 +27501,74 @@ video {
 
   .md\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .md\:focus\:border-html:focus {
+    border-color: #e54d26;
+  }
+
+  .md\:focus\:border-css:focus {
+    border-color: #3d8fc6;
+  }
+
+  .md\:focus\:border-js:focus {
+    border-color: #f0db4f;
+  }
+
+  .md\:focus\:border-react:focus {
+    border-color: #61dafb;
+  }
+
+  .md\:focus\:border-php:focus {
+    border-color: #6181b6;
+  }
+
+  .md\:focus\:border-mysql:focus {
+    border-color: #00618a;
+  }
+
+  .md\:focus\:border-node:focus {
+    border-color: #83CD29;
+  }
+
+  .md\:focus\:border-bootstrap:focus {
+    border-color: #59407f;
+  }
+
+  .md\:focus\:border-jquery:focus {
+    border-color: #0769ad;
+  }
+
+  .md\:focus\:border-git:focus {
+    border-color: #f34f29;
+  }
+
+  .md\:focus\:border-github:focus {
+    border-color: #181616;
+  }
+
+  .md\:focus\:border-npm:focus {
+    border-color: #cb3837;
+  }
+
+  .md\:focus\:border-webpack:focus {
+    border-color: #1C78C0;
+  }
+
+  .md\:focus\:border-express:focus {
+    border-color: #444;
+  }
+
+  .md\:focus\:border-aws:focus {
+    border-color: #F7A80D;
+  }
+
+  .md\:focus\:border-ubuntu:focus {
+    border-color: #DD4814;
+  }
+
+  .md\:focus\:border-apache:focus {
+    border-color: #303284;
   }
 
   .md\:rounded-none {
@@ -29284,6 +32301,346 @@ video {
     color: #702459;
   }
 
+  .md\:placeholder-html::-webkit-input-placeholder {
+    color: #e54d26;
+  }
+
+  .md\:placeholder-html::-moz-placeholder {
+    color: #e54d26;
+  }
+
+  .md\:placeholder-html:-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .md\:placeholder-html::-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .md\:placeholder-html::placeholder {
+    color: #e54d26;
+  }
+
+  .md\:placeholder-css::-webkit-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:placeholder-css::-moz-placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:placeholder-css:-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:placeholder-css::-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:placeholder-css::placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:placeholder-js::-webkit-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:placeholder-js::-moz-placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:placeholder-js:-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:placeholder-js::-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:placeholder-js::placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:placeholder-react::-webkit-input-placeholder {
+    color: #61dafb;
+  }
+
+  .md\:placeholder-react::-moz-placeholder {
+    color: #61dafb;
+  }
+
+  .md\:placeholder-react:-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .md\:placeholder-react::-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .md\:placeholder-react::placeholder {
+    color: #61dafb;
+  }
+
+  .md\:placeholder-php::-webkit-input-placeholder {
+    color: #6181b6;
+  }
+
+  .md\:placeholder-php::-moz-placeholder {
+    color: #6181b6;
+  }
+
+  .md\:placeholder-php:-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .md\:placeholder-php::-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .md\:placeholder-php::placeholder {
+    color: #6181b6;
+  }
+
+  .md\:placeholder-mysql::-webkit-input-placeholder {
+    color: #00618a;
+  }
+
+  .md\:placeholder-mysql::-moz-placeholder {
+    color: #00618a;
+  }
+
+  .md\:placeholder-mysql:-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .md\:placeholder-mysql::-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .md\:placeholder-mysql::placeholder {
+    color: #00618a;
+  }
+
+  .md\:placeholder-node::-webkit-input-placeholder {
+    color: #83CD29;
+  }
+
+  .md\:placeholder-node::-moz-placeholder {
+    color: #83CD29;
+  }
+
+  .md\:placeholder-node:-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .md\:placeholder-node::-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .md\:placeholder-node::placeholder {
+    color: #83CD29;
+  }
+
+  .md\:placeholder-bootstrap::-webkit-input-placeholder {
+    color: #59407f;
+  }
+
+  .md\:placeholder-bootstrap::-moz-placeholder {
+    color: #59407f;
+  }
+
+  .md\:placeholder-bootstrap:-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .md\:placeholder-bootstrap::-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .md\:placeholder-bootstrap::placeholder {
+    color: #59407f;
+  }
+
+  .md\:placeholder-jquery::-webkit-input-placeholder {
+    color: #0769ad;
+  }
+
+  .md\:placeholder-jquery::-moz-placeholder {
+    color: #0769ad;
+  }
+
+  .md\:placeholder-jquery:-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .md\:placeholder-jquery::-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .md\:placeholder-jquery::placeholder {
+    color: #0769ad;
+  }
+
+  .md\:placeholder-git::-webkit-input-placeholder {
+    color: #f34f29;
+  }
+
+  .md\:placeholder-git::-moz-placeholder {
+    color: #f34f29;
+  }
+
+  .md\:placeholder-git:-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .md\:placeholder-git::-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .md\:placeholder-git::placeholder {
+    color: #f34f29;
+  }
+
+  .md\:placeholder-github::-webkit-input-placeholder {
+    color: #181616;
+  }
+
+  .md\:placeholder-github::-moz-placeholder {
+    color: #181616;
+  }
+
+  .md\:placeholder-github:-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .md\:placeholder-github::-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .md\:placeholder-github::placeholder {
+    color: #181616;
+  }
+
+  .md\:placeholder-npm::-webkit-input-placeholder {
+    color: #cb3837;
+  }
+
+  .md\:placeholder-npm::-moz-placeholder {
+    color: #cb3837;
+  }
+
+  .md\:placeholder-npm:-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .md\:placeholder-npm::-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .md\:placeholder-npm::placeholder {
+    color: #cb3837;
+  }
+
+  .md\:placeholder-webpack::-webkit-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:placeholder-webpack::-moz-placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:placeholder-webpack:-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:placeholder-webpack::-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:placeholder-webpack::placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:placeholder-express::-webkit-input-placeholder {
+    color: #444;
+  }
+
+  .md\:placeholder-express::-moz-placeholder {
+    color: #444;
+  }
+
+  .md\:placeholder-express:-ms-input-placeholder {
+    color: #444;
+  }
+
+  .md\:placeholder-express::-ms-input-placeholder {
+    color: #444;
+  }
+
+  .md\:placeholder-express::placeholder {
+    color: #444;
+  }
+
+  .md\:placeholder-aws::-webkit-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:placeholder-aws::-moz-placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:placeholder-aws:-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:placeholder-aws::-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:placeholder-aws::placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:placeholder-ubuntu::-webkit-input-placeholder {
+    color: #DD4814;
+  }
+
+  .md\:placeholder-ubuntu::-moz-placeholder {
+    color: #DD4814;
+  }
+
+  .md\:placeholder-ubuntu:-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .md\:placeholder-ubuntu::-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .md\:placeholder-ubuntu::placeholder {
+    color: #DD4814;
+  }
+
+  .md\:placeholder-apache::-webkit-input-placeholder {
+    color: #303284;
+  }
+
+  .md\:placeholder-apache::-moz-placeholder {
+    color: #303284;
+  }
+
+  .md\:placeholder-apache:-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .md\:placeholder-apache::-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .md\:placeholder-apache::placeholder {
+    color: #303284;
+  }
+
   .md\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -31144,6 +34501,346 @@ video {
     color: #702459;
   }
 
+  .md\:focus\:placeholder-html:focus::-webkit-input-placeholder {
+    color: #e54d26;
+  }
+
+  .md\:focus\:placeholder-html:focus::-moz-placeholder {
+    color: #e54d26;
+  }
+
+  .md\:focus\:placeholder-html:focus:-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .md\:focus\:placeholder-html:focus::-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .md\:focus\:placeholder-html:focus::placeholder {
+    color: #e54d26;
+  }
+
+  .md\:focus\:placeholder-css:focus::-webkit-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:focus\:placeholder-css:focus::-moz-placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:focus\:placeholder-css:focus:-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:focus\:placeholder-css:focus::-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:focus\:placeholder-css:focus::placeholder {
+    color: #3d8fc6;
+  }
+
+  .md\:focus\:placeholder-js:focus::-webkit-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:focus\:placeholder-js:focus::-moz-placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:focus\:placeholder-js:focus:-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:focus\:placeholder-js:focus::-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:focus\:placeholder-js:focus::placeholder {
+    color: #f0db4f;
+  }
+
+  .md\:focus\:placeholder-react:focus::-webkit-input-placeholder {
+    color: #61dafb;
+  }
+
+  .md\:focus\:placeholder-react:focus::-moz-placeholder {
+    color: #61dafb;
+  }
+
+  .md\:focus\:placeholder-react:focus:-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .md\:focus\:placeholder-react:focus::-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .md\:focus\:placeholder-react:focus::placeholder {
+    color: #61dafb;
+  }
+
+  .md\:focus\:placeholder-php:focus::-webkit-input-placeholder {
+    color: #6181b6;
+  }
+
+  .md\:focus\:placeholder-php:focus::-moz-placeholder {
+    color: #6181b6;
+  }
+
+  .md\:focus\:placeholder-php:focus:-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .md\:focus\:placeholder-php:focus::-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .md\:focus\:placeholder-php:focus::placeholder {
+    color: #6181b6;
+  }
+
+  .md\:focus\:placeholder-mysql:focus::-webkit-input-placeholder {
+    color: #00618a;
+  }
+
+  .md\:focus\:placeholder-mysql:focus::-moz-placeholder {
+    color: #00618a;
+  }
+
+  .md\:focus\:placeholder-mysql:focus:-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .md\:focus\:placeholder-mysql:focus::-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .md\:focus\:placeholder-mysql:focus::placeholder {
+    color: #00618a;
+  }
+
+  .md\:focus\:placeholder-node:focus::-webkit-input-placeholder {
+    color: #83CD29;
+  }
+
+  .md\:focus\:placeholder-node:focus::-moz-placeholder {
+    color: #83CD29;
+  }
+
+  .md\:focus\:placeholder-node:focus:-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .md\:focus\:placeholder-node:focus::-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .md\:focus\:placeholder-node:focus::placeholder {
+    color: #83CD29;
+  }
+
+  .md\:focus\:placeholder-bootstrap:focus::-webkit-input-placeholder {
+    color: #59407f;
+  }
+
+  .md\:focus\:placeholder-bootstrap:focus::-moz-placeholder {
+    color: #59407f;
+  }
+
+  .md\:focus\:placeholder-bootstrap:focus:-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .md\:focus\:placeholder-bootstrap:focus::-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .md\:focus\:placeholder-bootstrap:focus::placeholder {
+    color: #59407f;
+  }
+
+  .md\:focus\:placeholder-jquery:focus::-webkit-input-placeholder {
+    color: #0769ad;
+  }
+
+  .md\:focus\:placeholder-jquery:focus::-moz-placeholder {
+    color: #0769ad;
+  }
+
+  .md\:focus\:placeholder-jquery:focus:-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .md\:focus\:placeholder-jquery:focus::-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .md\:focus\:placeholder-jquery:focus::placeholder {
+    color: #0769ad;
+  }
+
+  .md\:focus\:placeholder-git:focus::-webkit-input-placeholder {
+    color: #f34f29;
+  }
+
+  .md\:focus\:placeholder-git:focus::-moz-placeholder {
+    color: #f34f29;
+  }
+
+  .md\:focus\:placeholder-git:focus:-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .md\:focus\:placeholder-git:focus::-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .md\:focus\:placeholder-git:focus::placeholder {
+    color: #f34f29;
+  }
+
+  .md\:focus\:placeholder-github:focus::-webkit-input-placeholder {
+    color: #181616;
+  }
+
+  .md\:focus\:placeholder-github:focus::-moz-placeholder {
+    color: #181616;
+  }
+
+  .md\:focus\:placeholder-github:focus:-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .md\:focus\:placeholder-github:focus::-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .md\:focus\:placeholder-github:focus::placeholder {
+    color: #181616;
+  }
+
+  .md\:focus\:placeholder-npm:focus::-webkit-input-placeholder {
+    color: #cb3837;
+  }
+
+  .md\:focus\:placeholder-npm:focus::-moz-placeholder {
+    color: #cb3837;
+  }
+
+  .md\:focus\:placeholder-npm:focus:-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .md\:focus\:placeholder-npm:focus::-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .md\:focus\:placeholder-npm:focus::placeholder {
+    color: #cb3837;
+  }
+
+  .md\:focus\:placeholder-webpack:focus::-webkit-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:focus\:placeholder-webpack:focus::-moz-placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:focus\:placeholder-webpack:focus:-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:focus\:placeholder-webpack:focus::-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:focus\:placeholder-webpack:focus::placeholder {
+    color: #1C78C0;
+  }
+
+  .md\:focus\:placeholder-express:focus::-webkit-input-placeholder {
+    color: #444;
+  }
+
+  .md\:focus\:placeholder-express:focus::-moz-placeholder {
+    color: #444;
+  }
+
+  .md\:focus\:placeholder-express:focus:-ms-input-placeholder {
+    color: #444;
+  }
+
+  .md\:focus\:placeholder-express:focus::-ms-input-placeholder {
+    color: #444;
+  }
+
+  .md\:focus\:placeholder-express:focus::placeholder {
+    color: #444;
+  }
+
+  .md\:focus\:placeholder-aws:focus::-webkit-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:focus\:placeholder-aws:focus::-moz-placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:focus\:placeholder-aws:focus:-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:focus\:placeholder-aws:focus::-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:focus\:placeholder-aws:focus::placeholder {
+    color: #F7A80D;
+  }
+
+  .md\:focus\:placeholder-ubuntu:focus::-webkit-input-placeholder {
+    color: #DD4814;
+  }
+
+  .md\:focus\:placeholder-ubuntu:focus::-moz-placeholder {
+    color: #DD4814;
+  }
+
+  .md\:focus\:placeholder-ubuntu:focus:-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .md\:focus\:placeholder-ubuntu:focus::-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .md\:focus\:placeholder-ubuntu:focus::placeholder {
+    color: #DD4814;
+  }
+
+  .md\:focus\:placeholder-apache:focus::-webkit-input-placeholder {
+    color: #303284;
+  }
+
+  .md\:focus\:placeholder-apache:focus::-moz-placeholder {
+    color: #303284;
+  }
+
+  .md\:focus\:placeholder-apache:focus:-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .md\:focus\:placeholder-apache:focus::-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .md\:focus\:placeholder-apache:focus::placeholder {
+    color: #303284;
+  }
+
   .md\:pointer-events-none {
     pointer-events: none;
   }
@@ -31755,6 +35452,74 @@ video {
     color: #702459;
   }
 
+  .md\:text-html {
+    color: #e54d26;
+  }
+
+  .md\:text-css {
+    color: #3d8fc6;
+  }
+
+  .md\:text-js {
+    color: #f0db4f;
+  }
+
+  .md\:text-react {
+    color: #61dafb;
+  }
+
+  .md\:text-php {
+    color: #6181b6;
+  }
+
+  .md\:text-mysql {
+    color: #00618a;
+  }
+
+  .md\:text-node {
+    color: #83CD29;
+  }
+
+  .md\:text-bootstrap {
+    color: #59407f;
+  }
+
+  .md\:text-jquery {
+    color: #0769ad;
+  }
+
+  .md\:text-git {
+    color: #f34f29;
+  }
+
+  .md\:text-github {
+    color: #181616;
+  }
+
+  .md\:text-npm {
+    color: #cb3837;
+  }
+
+  .md\:text-webpack {
+    color: #1C78C0;
+  }
+
+  .md\:text-express {
+    color: #444;
+  }
+
+  .md\:text-aws {
+    color: #F7A80D;
+  }
+
+  .md\:text-ubuntu {
+    color: #DD4814;
+  }
+
+  .md\:text-apache {
+    color: #303284;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -32127,6 +35892,74 @@ video {
     color: #702459;
   }
 
+  .md\:hover\:text-html:hover {
+    color: #e54d26;
+  }
+
+  .md\:hover\:text-css:hover {
+    color: #3d8fc6;
+  }
+
+  .md\:hover\:text-js:hover {
+    color: #f0db4f;
+  }
+
+  .md\:hover\:text-react:hover {
+    color: #61dafb;
+  }
+
+  .md\:hover\:text-php:hover {
+    color: #6181b6;
+  }
+
+  .md\:hover\:text-mysql:hover {
+    color: #00618a;
+  }
+
+  .md\:hover\:text-node:hover {
+    color: #83CD29;
+  }
+
+  .md\:hover\:text-bootstrap:hover {
+    color: #59407f;
+  }
+
+  .md\:hover\:text-jquery:hover {
+    color: #0769ad;
+  }
+
+  .md\:hover\:text-git:hover {
+    color: #f34f29;
+  }
+
+  .md\:hover\:text-github:hover {
+    color: #181616;
+  }
+
+  .md\:hover\:text-npm:hover {
+    color: #cb3837;
+  }
+
+  .md\:hover\:text-webpack:hover {
+    color: #1C78C0;
+  }
+
+  .md\:hover\:text-express:hover {
+    color: #444;
+  }
+
+  .md\:hover\:text-aws:hover {
+    color: #F7A80D;
+  }
+
+  .md\:hover\:text-ubuntu:hover {
+    color: #DD4814;
+  }
+
+  .md\:hover\:text-apache:hover {
+    color: #303284;
+  }
+
   .md\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -32497,6 +36330,74 @@ video {
 
   .md\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .md\:focus\:text-html:focus {
+    color: #e54d26;
+  }
+
+  .md\:focus\:text-css:focus {
+    color: #3d8fc6;
+  }
+
+  .md\:focus\:text-js:focus {
+    color: #f0db4f;
+  }
+
+  .md\:focus\:text-react:focus {
+    color: #61dafb;
+  }
+
+  .md\:focus\:text-php:focus {
+    color: #6181b6;
+  }
+
+  .md\:focus\:text-mysql:focus {
+    color: #00618a;
+  }
+
+  .md\:focus\:text-node:focus {
+    color: #83CD29;
+  }
+
+  .md\:focus\:text-bootstrap:focus {
+    color: #59407f;
+  }
+
+  .md\:focus\:text-jquery:focus {
+    color: #0769ad;
+  }
+
+  .md\:focus\:text-git:focus {
+    color: #f34f29;
+  }
+
+  .md\:focus\:text-github:focus {
+    color: #181616;
+  }
+
+  .md\:focus\:text-npm:focus {
+    color: #cb3837;
+  }
+
+  .md\:focus\:text-webpack:focus {
+    color: #1C78C0;
+  }
+
+  .md\:focus\:text-express:focus {
+    color: #444;
+  }
+
+  .md\:focus\:text-aws:focus {
+    color: #F7A80D;
+  }
+
+  .md\:focus\:text-ubuntu:focus {
+    color: #DD4814;
+  }
+
+  .md\:focus\:text-apache:focus {
+    color: #303284;
   }
 
   .md\:text-xs {
@@ -33390,6 +37291,74 @@ video {
     background-color: #702459;
   }
 
+  .lg\:bg-html {
+    background-color: #e54d26;
+  }
+
+  .lg\:bg-css {
+    background-color: #3d8fc6;
+  }
+
+  .lg\:bg-js {
+    background-color: #f0db4f;
+  }
+
+  .lg\:bg-react {
+    background-color: #61dafb;
+  }
+
+  .lg\:bg-php {
+    background-color: #6181b6;
+  }
+
+  .lg\:bg-mysql {
+    background-color: #00618a;
+  }
+
+  .lg\:bg-node {
+    background-color: #83CD29;
+  }
+
+  .lg\:bg-bootstrap {
+    background-color: #59407f;
+  }
+
+  .lg\:bg-jquery {
+    background-color: #0769ad;
+  }
+
+  .lg\:bg-git {
+    background-color: #f34f29;
+  }
+
+  .lg\:bg-github {
+    background-color: #181616;
+  }
+
+  .lg\:bg-npm {
+    background-color: #cb3837;
+  }
+
+  .lg\:bg-webpack {
+    background-color: #1C78C0;
+  }
+
+  .lg\:bg-express {
+    background-color: #444;
+  }
+
+  .lg\:bg-aws {
+    background-color: #F7A80D;
+  }
+
+  .lg\:bg-ubuntu {
+    background-color: #DD4814;
+  }
+
+  .lg\:bg-apache {
+    background-color: #303284;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -33762,6 +37731,74 @@ video {
     background-color: #702459;
   }
 
+  .lg\:hover\:bg-html:hover {
+    background-color: #e54d26;
+  }
+
+  .lg\:hover\:bg-css:hover {
+    background-color: #3d8fc6;
+  }
+
+  .lg\:hover\:bg-js:hover {
+    background-color: #f0db4f;
+  }
+
+  .lg\:hover\:bg-react:hover {
+    background-color: #61dafb;
+  }
+
+  .lg\:hover\:bg-php:hover {
+    background-color: #6181b6;
+  }
+
+  .lg\:hover\:bg-mysql:hover {
+    background-color: #00618a;
+  }
+
+  .lg\:hover\:bg-node:hover {
+    background-color: #83CD29;
+  }
+
+  .lg\:hover\:bg-bootstrap:hover {
+    background-color: #59407f;
+  }
+
+  .lg\:hover\:bg-jquery:hover {
+    background-color: #0769ad;
+  }
+
+  .lg\:hover\:bg-git:hover {
+    background-color: #f34f29;
+  }
+
+  .lg\:hover\:bg-github:hover {
+    background-color: #181616;
+  }
+
+  .lg\:hover\:bg-npm:hover {
+    background-color: #cb3837;
+  }
+
+  .lg\:hover\:bg-webpack:hover {
+    background-color: #1C78C0;
+  }
+
+  .lg\:hover\:bg-express:hover {
+    background-color: #444;
+  }
+
+  .lg\:hover\:bg-aws:hover {
+    background-color: #F7A80D;
+  }
+
+  .lg\:hover\:bg-ubuntu:hover {
+    background-color: #DD4814;
+  }
+
+  .lg\:hover\:bg-apache:hover {
+    background-color: #303284;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -34132,6 +38169,74 @@ video {
 
   .lg\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .lg\:focus\:bg-html:focus {
+    background-color: #e54d26;
+  }
+
+  .lg\:focus\:bg-css:focus {
+    background-color: #3d8fc6;
+  }
+
+  .lg\:focus\:bg-js:focus {
+    background-color: #f0db4f;
+  }
+
+  .lg\:focus\:bg-react:focus {
+    background-color: #61dafb;
+  }
+
+  .lg\:focus\:bg-php:focus {
+    background-color: #6181b6;
+  }
+
+  .lg\:focus\:bg-mysql:focus {
+    background-color: #00618a;
+  }
+
+  .lg\:focus\:bg-node:focus {
+    background-color: #83CD29;
+  }
+
+  .lg\:focus\:bg-bootstrap:focus {
+    background-color: #59407f;
+  }
+
+  .lg\:focus\:bg-jquery:focus {
+    background-color: #0769ad;
+  }
+
+  .lg\:focus\:bg-git:focus {
+    background-color: #f34f29;
+  }
+
+  .lg\:focus\:bg-github:focus {
+    background-color: #181616;
+  }
+
+  .lg\:focus\:bg-npm:focus {
+    background-color: #cb3837;
+  }
+
+  .lg\:focus\:bg-webpack:focus {
+    background-color: #1C78C0;
+  }
+
+  .lg\:focus\:bg-express:focus {
+    background-color: #444;
+  }
+
+  .lg\:focus\:bg-aws:focus {
+    background-color: #F7A80D;
+  }
+
+  .lg\:focus\:bg-ubuntu:focus {
+    background-color: #DD4814;
+  }
+
+  .lg\:focus\:bg-apache:focus {
+    background-color: #303284;
   }
 
   .lg\:bg-bottom {
@@ -34586,6 +38691,74 @@ video {
     border-color: #702459;
   }
 
+  .lg\:border-html {
+    border-color: #e54d26;
+  }
+
+  .lg\:border-css {
+    border-color: #3d8fc6;
+  }
+
+  .lg\:border-js {
+    border-color: #f0db4f;
+  }
+
+  .lg\:border-react {
+    border-color: #61dafb;
+  }
+
+  .lg\:border-php {
+    border-color: #6181b6;
+  }
+
+  .lg\:border-mysql {
+    border-color: #00618a;
+  }
+
+  .lg\:border-node {
+    border-color: #83CD29;
+  }
+
+  .lg\:border-bootstrap {
+    border-color: #59407f;
+  }
+
+  .lg\:border-jquery {
+    border-color: #0769ad;
+  }
+
+  .lg\:border-git {
+    border-color: #f34f29;
+  }
+
+  .lg\:border-github {
+    border-color: #181616;
+  }
+
+  .lg\:border-npm {
+    border-color: #cb3837;
+  }
+
+  .lg\:border-webpack {
+    border-color: #1C78C0;
+  }
+
+  .lg\:border-express {
+    border-color: #444;
+  }
+
+  .lg\:border-aws {
+    border-color: #F7A80D;
+  }
+
+  .lg\:border-ubuntu {
+    border-color: #DD4814;
+  }
+
+  .lg\:border-apache {
+    border-color: #303284;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -34958,6 +39131,74 @@ video {
     border-color: #702459;
   }
 
+  .lg\:hover\:border-html:hover {
+    border-color: #e54d26;
+  }
+
+  .lg\:hover\:border-css:hover {
+    border-color: #3d8fc6;
+  }
+
+  .lg\:hover\:border-js:hover {
+    border-color: #f0db4f;
+  }
+
+  .lg\:hover\:border-react:hover {
+    border-color: #61dafb;
+  }
+
+  .lg\:hover\:border-php:hover {
+    border-color: #6181b6;
+  }
+
+  .lg\:hover\:border-mysql:hover {
+    border-color: #00618a;
+  }
+
+  .lg\:hover\:border-node:hover {
+    border-color: #83CD29;
+  }
+
+  .lg\:hover\:border-bootstrap:hover {
+    border-color: #59407f;
+  }
+
+  .lg\:hover\:border-jquery:hover {
+    border-color: #0769ad;
+  }
+
+  .lg\:hover\:border-git:hover {
+    border-color: #f34f29;
+  }
+
+  .lg\:hover\:border-github:hover {
+    border-color: #181616;
+  }
+
+  .lg\:hover\:border-npm:hover {
+    border-color: #cb3837;
+  }
+
+  .lg\:hover\:border-webpack:hover {
+    border-color: #1C78C0;
+  }
+
+  .lg\:hover\:border-express:hover {
+    border-color: #444;
+  }
+
+  .lg\:hover\:border-aws:hover {
+    border-color: #F7A80D;
+  }
+
+  .lg\:hover\:border-ubuntu:hover {
+    border-color: #DD4814;
+  }
+
+  .lg\:hover\:border-apache:hover {
+    border-color: #303284;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -35328,6 +39569,74 @@ video {
 
   .lg\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .lg\:focus\:border-html:focus {
+    border-color: #e54d26;
+  }
+
+  .lg\:focus\:border-css:focus {
+    border-color: #3d8fc6;
+  }
+
+  .lg\:focus\:border-js:focus {
+    border-color: #f0db4f;
+  }
+
+  .lg\:focus\:border-react:focus {
+    border-color: #61dafb;
+  }
+
+  .lg\:focus\:border-php:focus {
+    border-color: #6181b6;
+  }
+
+  .lg\:focus\:border-mysql:focus {
+    border-color: #00618a;
+  }
+
+  .lg\:focus\:border-node:focus {
+    border-color: #83CD29;
+  }
+
+  .lg\:focus\:border-bootstrap:focus {
+    border-color: #59407f;
+  }
+
+  .lg\:focus\:border-jquery:focus {
+    border-color: #0769ad;
+  }
+
+  .lg\:focus\:border-git:focus {
+    border-color: #f34f29;
+  }
+
+  .lg\:focus\:border-github:focus {
+    border-color: #181616;
+  }
+
+  .lg\:focus\:border-npm:focus {
+    border-color: #cb3837;
+  }
+
+  .lg\:focus\:border-webpack:focus {
+    border-color: #1C78C0;
+  }
+
+  .lg\:focus\:border-express:focus {
+    border-color: #444;
+  }
+
+  .lg\:focus\:border-aws:focus {
+    border-color: #F7A80D;
+  }
+
+  .lg\:focus\:border-ubuntu:focus {
+    border-color: #DD4814;
+  }
+
+  .lg\:focus\:border-apache:focus {
+    border-color: #303284;
   }
 
   .lg\:rounded-none {
@@ -40060,6 +44369,346 @@ video {
     color: #702459;
   }
 
+  .lg\:placeholder-html::-webkit-input-placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:placeholder-html::-moz-placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:placeholder-html:-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:placeholder-html::-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:placeholder-html::placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:placeholder-css::-webkit-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:placeholder-css::-moz-placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:placeholder-css:-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:placeholder-css::-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:placeholder-css::placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:placeholder-js::-webkit-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:placeholder-js::-moz-placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:placeholder-js:-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:placeholder-js::-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:placeholder-js::placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:placeholder-react::-webkit-input-placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:placeholder-react::-moz-placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:placeholder-react:-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:placeholder-react::-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:placeholder-react::placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:placeholder-php::-webkit-input-placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:placeholder-php::-moz-placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:placeholder-php:-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:placeholder-php::-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:placeholder-php::placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:placeholder-mysql::-webkit-input-placeholder {
+    color: #00618a;
+  }
+
+  .lg\:placeholder-mysql::-moz-placeholder {
+    color: #00618a;
+  }
+
+  .lg\:placeholder-mysql:-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .lg\:placeholder-mysql::-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .lg\:placeholder-mysql::placeholder {
+    color: #00618a;
+  }
+
+  .lg\:placeholder-node::-webkit-input-placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:placeholder-node::-moz-placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:placeholder-node:-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:placeholder-node::-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:placeholder-node::placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:placeholder-bootstrap::-webkit-input-placeholder {
+    color: #59407f;
+  }
+
+  .lg\:placeholder-bootstrap::-moz-placeholder {
+    color: #59407f;
+  }
+
+  .lg\:placeholder-bootstrap:-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .lg\:placeholder-bootstrap::-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .lg\:placeholder-bootstrap::placeholder {
+    color: #59407f;
+  }
+
+  .lg\:placeholder-jquery::-webkit-input-placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:placeholder-jquery::-moz-placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:placeholder-jquery:-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:placeholder-jquery::-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:placeholder-jquery::placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:placeholder-git::-webkit-input-placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:placeholder-git::-moz-placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:placeholder-git:-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:placeholder-git::-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:placeholder-git::placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:placeholder-github::-webkit-input-placeholder {
+    color: #181616;
+  }
+
+  .lg\:placeholder-github::-moz-placeholder {
+    color: #181616;
+  }
+
+  .lg\:placeholder-github:-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .lg\:placeholder-github::-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .lg\:placeholder-github::placeholder {
+    color: #181616;
+  }
+
+  .lg\:placeholder-npm::-webkit-input-placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:placeholder-npm::-moz-placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:placeholder-npm:-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:placeholder-npm::-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:placeholder-npm::placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:placeholder-webpack::-webkit-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:placeholder-webpack::-moz-placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:placeholder-webpack:-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:placeholder-webpack::-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:placeholder-webpack::placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:placeholder-express::-webkit-input-placeholder {
+    color: #444;
+  }
+
+  .lg\:placeholder-express::-moz-placeholder {
+    color: #444;
+  }
+
+  .lg\:placeholder-express:-ms-input-placeholder {
+    color: #444;
+  }
+
+  .lg\:placeholder-express::-ms-input-placeholder {
+    color: #444;
+  }
+
+  .lg\:placeholder-express::placeholder {
+    color: #444;
+  }
+
+  .lg\:placeholder-aws::-webkit-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:placeholder-aws::-moz-placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:placeholder-aws:-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:placeholder-aws::-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:placeholder-aws::placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:placeholder-ubuntu::-webkit-input-placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:placeholder-ubuntu::-moz-placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:placeholder-ubuntu:-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:placeholder-ubuntu::-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:placeholder-ubuntu::placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:placeholder-apache::-webkit-input-placeholder {
+    color: #303284;
+  }
+
+  .lg\:placeholder-apache::-moz-placeholder {
+    color: #303284;
+  }
+
+  .lg\:placeholder-apache:-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .lg\:placeholder-apache::-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .lg\:placeholder-apache::placeholder {
+    color: #303284;
+  }
+
   .lg\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -41920,6 +46569,346 @@ video {
     color: #702459;
   }
 
+  .lg\:focus\:placeholder-html:focus::-webkit-input-placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:focus\:placeholder-html:focus::-moz-placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:focus\:placeholder-html:focus:-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:focus\:placeholder-html:focus::-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:focus\:placeholder-html:focus::placeholder {
+    color: #e54d26;
+  }
+
+  .lg\:focus\:placeholder-css:focus::-webkit-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:focus\:placeholder-css:focus::-moz-placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:focus\:placeholder-css:focus:-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:focus\:placeholder-css:focus::-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:focus\:placeholder-css:focus::placeholder {
+    color: #3d8fc6;
+  }
+
+  .lg\:focus\:placeholder-js:focus::-webkit-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:focus\:placeholder-js:focus::-moz-placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:focus\:placeholder-js:focus:-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:focus\:placeholder-js:focus::-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:focus\:placeholder-js:focus::placeholder {
+    color: #f0db4f;
+  }
+
+  .lg\:focus\:placeholder-react:focus::-webkit-input-placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:focus\:placeholder-react:focus::-moz-placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:focus\:placeholder-react:focus:-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:focus\:placeholder-react:focus::-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:focus\:placeholder-react:focus::placeholder {
+    color: #61dafb;
+  }
+
+  .lg\:focus\:placeholder-php:focus::-webkit-input-placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:focus\:placeholder-php:focus::-moz-placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:focus\:placeholder-php:focus:-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:focus\:placeholder-php:focus::-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:focus\:placeholder-php:focus::placeholder {
+    color: #6181b6;
+  }
+
+  .lg\:focus\:placeholder-mysql:focus::-webkit-input-placeholder {
+    color: #00618a;
+  }
+
+  .lg\:focus\:placeholder-mysql:focus::-moz-placeholder {
+    color: #00618a;
+  }
+
+  .lg\:focus\:placeholder-mysql:focus:-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .lg\:focus\:placeholder-mysql:focus::-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .lg\:focus\:placeholder-mysql:focus::placeholder {
+    color: #00618a;
+  }
+
+  .lg\:focus\:placeholder-node:focus::-webkit-input-placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:focus\:placeholder-node:focus::-moz-placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:focus\:placeholder-node:focus:-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:focus\:placeholder-node:focus::-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:focus\:placeholder-node:focus::placeholder {
+    color: #83CD29;
+  }
+
+  .lg\:focus\:placeholder-bootstrap:focus::-webkit-input-placeholder {
+    color: #59407f;
+  }
+
+  .lg\:focus\:placeholder-bootstrap:focus::-moz-placeholder {
+    color: #59407f;
+  }
+
+  .lg\:focus\:placeholder-bootstrap:focus:-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .lg\:focus\:placeholder-bootstrap:focus::-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .lg\:focus\:placeholder-bootstrap:focus::placeholder {
+    color: #59407f;
+  }
+
+  .lg\:focus\:placeholder-jquery:focus::-webkit-input-placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:focus\:placeholder-jquery:focus::-moz-placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:focus\:placeholder-jquery:focus:-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:focus\:placeholder-jquery:focus::-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:focus\:placeholder-jquery:focus::placeholder {
+    color: #0769ad;
+  }
+
+  .lg\:focus\:placeholder-git:focus::-webkit-input-placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:focus\:placeholder-git:focus::-moz-placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:focus\:placeholder-git:focus:-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:focus\:placeholder-git:focus::-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:focus\:placeholder-git:focus::placeholder {
+    color: #f34f29;
+  }
+
+  .lg\:focus\:placeholder-github:focus::-webkit-input-placeholder {
+    color: #181616;
+  }
+
+  .lg\:focus\:placeholder-github:focus::-moz-placeholder {
+    color: #181616;
+  }
+
+  .lg\:focus\:placeholder-github:focus:-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .lg\:focus\:placeholder-github:focus::-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .lg\:focus\:placeholder-github:focus::placeholder {
+    color: #181616;
+  }
+
+  .lg\:focus\:placeholder-npm:focus::-webkit-input-placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:focus\:placeholder-npm:focus::-moz-placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:focus\:placeholder-npm:focus:-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:focus\:placeholder-npm:focus::-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:focus\:placeholder-npm:focus::placeholder {
+    color: #cb3837;
+  }
+
+  .lg\:focus\:placeholder-webpack:focus::-webkit-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:focus\:placeholder-webpack:focus::-moz-placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:focus\:placeholder-webpack:focus:-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:focus\:placeholder-webpack:focus::-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:focus\:placeholder-webpack:focus::placeholder {
+    color: #1C78C0;
+  }
+
+  .lg\:focus\:placeholder-express:focus::-webkit-input-placeholder {
+    color: #444;
+  }
+
+  .lg\:focus\:placeholder-express:focus::-moz-placeholder {
+    color: #444;
+  }
+
+  .lg\:focus\:placeholder-express:focus:-ms-input-placeholder {
+    color: #444;
+  }
+
+  .lg\:focus\:placeholder-express:focus::-ms-input-placeholder {
+    color: #444;
+  }
+
+  .lg\:focus\:placeholder-express:focus::placeholder {
+    color: #444;
+  }
+
+  .lg\:focus\:placeholder-aws:focus::-webkit-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:focus\:placeholder-aws:focus::-moz-placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:focus\:placeholder-aws:focus:-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:focus\:placeholder-aws:focus::-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:focus\:placeholder-aws:focus::placeholder {
+    color: #F7A80D;
+  }
+
+  .lg\:focus\:placeholder-ubuntu:focus::-webkit-input-placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:focus\:placeholder-ubuntu:focus::-moz-placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:focus\:placeholder-ubuntu:focus:-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:focus\:placeholder-ubuntu:focus::-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:focus\:placeholder-ubuntu:focus::placeholder {
+    color: #DD4814;
+  }
+
+  .lg\:focus\:placeholder-apache:focus::-webkit-input-placeholder {
+    color: #303284;
+  }
+
+  .lg\:focus\:placeholder-apache:focus::-moz-placeholder {
+    color: #303284;
+  }
+
+  .lg\:focus\:placeholder-apache:focus:-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .lg\:focus\:placeholder-apache:focus::-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .lg\:focus\:placeholder-apache:focus::placeholder {
+    color: #303284;
+  }
+
   .lg\:pointer-events-none {
     pointer-events: none;
   }
@@ -42531,6 +47520,74 @@ video {
     color: #702459;
   }
 
+  .lg\:text-html {
+    color: #e54d26;
+  }
+
+  .lg\:text-css {
+    color: #3d8fc6;
+  }
+
+  .lg\:text-js {
+    color: #f0db4f;
+  }
+
+  .lg\:text-react {
+    color: #61dafb;
+  }
+
+  .lg\:text-php {
+    color: #6181b6;
+  }
+
+  .lg\:text-mysql {
+    color: #00618a;
+  }
+
+  .lg\:text-node {
+    color: #83CD29;
+  }
+
+  .lg\:text-bootstrap {
+    color: #59407f;
+  }
+
+  .lg\:text-jquery {
+    color: #0769ad;
+  }
+
+  .lg\:text-git {
+    color: #f34f29;
+  }
+
+  .lg\:text-github {
+    color: #181616;
+  }
+
+  .lg\:text-npm {
+    color: #cb3837;
+  }
+
+  .lg\:text-webpack {
+    color: #1C78C0;
+  }
+
+  .lg\:text-express {
+    color: #444;
+  }
+
+  .lg\:text-aws {
+    color: #F7A80D;
+  }
+
+  .lg\:text-ubuntu {
+    color: #DD4814;
+  }
+
+  .lg\:text-apache {
+    color: #303284;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -42903,6 +47960,74 @@ video {
     color: #702459;
   }
 
+  .lg\:hover\:text-html:hover {
+    color: #e54d26;
+  }
+
+  .lg\:hover\:text-css:hover {
+    color: #3d8fc6;
+  }
+
+  .lg\:hover\:text-js:hover {
+    color: #f0db4f;
+  }
+
+  .lg\:hover\:text-react:hover {
+    color: #61dafb;
+  }
+
+  .lg\:hover\:text-php:hover {
+    color: #6181b6;
+  }
+
+  .lg\:hover\:text-mysql:hover {
+    color: #00618a;
+  }
+
+  .lg\:hover\:text-node:hover {
+    color: #83CD29;
+  }
+
+  .lg\:hover\:text-bootstrap:hover {
+    color: #59407f;
+  }
+
+  .lg\:hover\:text-jquery:hover {
+    color: #0769ad;
+  }
+
+  .lg\:hover\:text-git:hover {
+    color: #f34f29;
+  }
+
+  .lg\:hover\:text-github:hover {
+    color: #181616;
+  }
+
+  .lg\:hover\:text-npm:hover {
+    color: #cb3837;
+  }
+
+  .lg\:hover\:text-webpack:hover {
+    color: #1C78C0;
+  }
+
+  .lg\:hover\:text-express:hover {
+    color: #444;
+  }
+
+  .lg\:hover\:text-aws:hover {
+    color: #F7A80D;
+  }
+
+  .lg\:hover\:text-ubuntu:hover {
+    color: #DD4814;
+  }
+
+  .lg\:hover\:text-apache:hover {
+    color: #303284;
+  }
+
   .lg\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -43273,6 +48398,74 @@ video {
 
   .lg\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .lg\:focus\:text-html:focus {
+    color: #e54d26;
+  }
+
+  .lg\:focus\:text-css:focus {
+    color: #3d8fc6;
+  }
+
+  .lg\:focus\:text-js:focus {
+    color: #f0db4f;
+  }
+
+  .lg\:focus\:text-react:focus {
+    color: #61dafb;
+  }
+
+  .lg\:focus\:text-php:focus {
+    color: #6181b6;
+  }
+
+  .lg\:focus\:text-mysql:focus {
+    color: #00618a;
+  }
+
+  .lg\:focus\:text-node:focus {
+    color: #83CD29;
+  }
+
+  .lg\:focus\:text-bootstrap:focus {
+    color: #59407f;
+  }
+
+  .lg\:focus\:text-jquery:focus {
+    color: #0769ad;
+  }
+
+  .lg\:focus\:text-git:focus {
+    color: #f34f29;
+  }
+
+  .lg\:focus\:text-github:focus {
+    color: #181616;
+  }
+
+  .lg\:focus\:text-npm:focus {
+    color: #cb3837;
+  }
+
+  .lg\:focus\:text-webpack:focus {
+    color: #1C78C0;
+  }
+
+  .lg\:focus\:text-express:focus {
+    color: #444;
+  }
+
+  .lg\:focus\:text-aws:focus {
+    color: #F7A80D;
+  }
+
+  .lg\:focus\:text-ubuntu:focus {
+    color: #DD4814;
+  }
+
+  .lg\:focus\:text-apache:focus {
+    color: #303284;
   }
 
   .lg\:text-xs {
@@ -44166,6 +49359,74 @@ video {
     background-color: #702459;
   }
 
+  .xl\:bg-html {
+    background-color: #e54d26;
+  }
+
+  .xl\:bg-css {
+    background-color: #3d8fc6;
+  }
+
+  .xl\:bg-js {
+    background-color: #f0db4f;
+  }
+
+  .xl\:bg-react {
+    background-color: #61dafb;
+  }
+
+  .xl\:bg-php {
+    background-color: #6181b6;
+  }
+
+  .xl\:bg-mysql {
+    background-color: #00618a;
+  }
+
+  .xl\:bg-node {
+    background-color: #83CD29;
+  }
+
+  .xl\:bg-bootstrap {
+    background-color: #59407f;
+  }
+
+  .xl\:bg-jquery {
+    background-color: #0769ad;
+  }
+
+  .xl\:bg-git {
+    background-color: #f34f29;
+  }
+
+  .xl\:bg-github {
+    background-color: #181616;
+  }
+
+  .xl\:bg-npm {
+    background-color: #cb3837;
+  }
+
+  .xl\:bg-webpack {
+    background-color: #1C78C0;
+  }
+
+  .xl\:bg-express {
+    background-color: #444;
+  }
+
+  .xl\:bg-aws {
+    background-color: #F7A80D;
+  }
+
+  .xl\:bg-ubuntu {
+    background-color: #DD4814;
+  }
+
+  .xl\:bg-apache {
+    background-color: #303284;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -44538,6 +49799,74 @@ video {
     background-color: #702459;
   }
 
+  .xl\:hover\:bg-html:hover {
+    background-color: #e54d26;
+  }
+
+  .xl\:hover\:bg-css:hover {
+    background-color: #3d8fc6;
+  }
+
+  .xl\:hover\:bg-js:hover {
+    background-color: #f0db4f;
+  }
+
+  .xl\:hover\:bg-react:hover {
+    background-color: #61dafb;
+  }
+
+  .xl\:hover\:bg-php:hover {
+    background-color: #6181b6;
+  }
+
+  .xl\:hover\:bg-mysql:hover {
+    background-color: #00618a;
+  }
+
+  .xl\:hover\:bg-node:hover {
+    background-color: #83CD29;
+  }
+
+  .xl\:hover\:bg-bootstrap:hover {
+    background-color: #59407f;
+  }
+
+  .xl\:hover\:bg-jquery:hover {
+    background-color: #0769ad;
+  }
+
+  .xl\:hover\:bg-git:hover {
+    background-color: #f34f29;
+  }
+
+  .xl\:hover\:bg-github:hover {
+    background-color: #181616;
+  }
+
+  .xl\:hover\:bg-npm:hover {
+    background-color: #cb3837;
+  }
+
+  .xl\:hover\:bg-webpack:hover {
+    background-color: #1C78C0;
+  }
+
+  .xl\:hover\:bg-express:hover {
+    background-color: #444;
+  }
+
+  .xl\:hover\:bg-aws:hover {
+    background-color: #F7A80D;
+  }
+
+  .xl\:hover\:bg-ubuntu:hover {
+    background-color: #DD4814;
+  }
+
+  .xl\:hover\:bg-apache:hover {
+    background-color: #303284;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -44908,6 +50237,74 @@ video {
 
   .xl\:focus\:bg-pink-900:focus {
     background-color: #702459;
+  }
+
+  .xl\:focus\:bg-html:focus {
+    background-color: #e54d26;
+  }
+
+  .xl\:focus\:bg-css:focus {
+    background-color: #3d8fc6;
+  }
+
+  .xl\:focus\:bg-js:focus {
+    background-color: #f0db4f;
+  }
+
+  .xl\:focus\:bg-react:focus {
+    background-color: #61dafb;
+  }
+
+  .xl\:focus\:bg-php:focus {
+    background-color: #6181b6;
+  }
+
+  .xl\:focus\:bg-mysql:focus {
+    background-color: #00618a;
+  }
+
+  .xl\:focus\:bg-node:focus {
+    background-color: #83CD29;
+  }
+
+  .xl\:focus\:bg-bootstrap:focus {
+    background-color: #59407f;
+  }
+
+  .xl\:focus\:bg-jquery:focus {
+    background-color: #0769ad;
+  }
+
+  .xl\:focus\:bg-git:focus {
+    background-color: #f34f29;
+  }
+
+  .xl\:focus\:bg-github:focus {
+    background-color: #181616;
+  }
+
+  .xl\:focus\:bg-npm:focus {
+    background-color: #cb3837;
+  }
+
+  .xl\:focus\:bg-webpack:focus {
+    background-color: #1C78C0;
+  }
+
+  .xl\:focus\:bg-express:focus {
+    background-color: #444;
+  }
+
+  .xl\:focus\:bg-aws:focus {
+    background-color: #F7A80D;
+  }
+
+  .xl\:focus\:bg-ubuntu:focus {
+    background-color: #DD4814;
+  }
+
+  .xl\:focus\:bg-apache:focus {
+    background-color: #303284;
   }
 
   .xl\:bg-bottom {
@@ -45362,6 +50759,74 @@ video {
     border-color: #702459;
   }
 
+  .xl\:border-html {
+    border-color: #e54d26;
+  }
+
+  .xl\:border-css {
+    border-color: #3d8fc6;
+  }
+
+  .xl\:border-js {
+    border-color: #f0db4f;
+  }
+
+  .xl\:border-react {
+    border-color: #61dafb;
+  }
+
+  .xl\:border-php {
+    border-color: #6181b6;
+  }
+
+  .xl\:border-mysql {
+    border-color: #00618a;
+  }
+
+  .xl\:border-node {
+    border-color: #83CD29;
+  }
+
+  .xl\:border-bootstrap {
+    border-color: #59407f;
+  }
+
+  .xl\:border-jquery {
+    border-color: #0769ad;
+  }
+
+  .xl\:border-git {
+    border-color: #f34f29;
+  }
+
+  .xl\:border-github {
+    border-color: #181616;
+  }
+
+  .xl\:border-npm {
+    border-color: #cb3837;
+  }
+
+  .xl\:border-webpack {
+    border-color: #1C78C0;
+  }
+
+  .xl\:border-express {
+    border-color: #444;
+  }
+
+  .xl\:border-aws {
+    border-color: #F7A80D;
+  }
+
+  .xl\:border-ubuntu {
+    border-color: #DD4814;
+  }
+
+  .xl\:border-apache {
+    border-color: #303284;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -45734,6 +51199,74 @@ video {
     border-color: #702459;
   }
 
+  .xl\:hover\:border-html:hover {
+    border-color: #e54d26;
+  }
+
+  .xl\:hover\:border-css:hover {
+    border-color: #3d8fc6;
+  }
+
+  .xl\:hover\:border-js:hover {
+    border-color: #f0db4f;
+  }
+
+  .xl\:hover\:border-react:hover {
+    border-color: #61dafb;
+  }
+
+  .xl\:hover\:border-php:hover {
+    border-color: #6181b6;
+  }
+
+  .xl\:hover\:border-mysql:hover {
+    border-color: #00618a;
+  }
+
+  .xl\:hover\:border-node:hover {
+    border-color: #83CD29;
+  }
+
+  .xl\:hover\:border-bootstrap:hover {
+    border-color: #59407f;
+  }
+
+  .xl\:hover\:border-jquery:hover {
+    border-color: #0769ad;
+  }
+
+  .xl\:hover\:border-git:hover {
+    border-color: #f34f29;
+  }
+
+  .xl\:hover\:border-github:hover {
+    border-color: #181616;
+  }
+
+  .xl\:hover\:border-npm:hover {
+    border-color: #cb3837;
+  }
+
+  .xl\:hover\:border-webpack:hover {
+    border-color: #1C78C0;
+  }
+
+  .xl\:hover\:border-express:hover {
+    border-color: #444;
+  }
+
+  .xl\:hover\:border-aws:hover {
+    border-color: #F7A80D;
+  }
+
+  .xl\:hover\:border-ubuntu:hover {
+    border-color: #DD4814;
+  }
+
+  .xl\:hover\:border-apache:hover {
+    border-color: #303284;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -46104,6 +51637,74 @@ video {
 
   .xl\:focus\:border-pink-900:focus {
     border-color: #702459;
+  }
+
+  .xl\:focus\:border-html:focus {
+    border-color: #e54d26;
+  }
+
+  .xl\:focus\:border-css:focus {
+    border-color: #3d8fc6;
+  }
+
+  .xl\:focus\:border-js:focus {
+    border-color: #f0db4f;
+  }
+
+  .xl\:focus\:border-react:focus {
+    border-color: #61dafb;
+  }
+
+  .xl\:focus\:border-php:focus {
+    border-color: #6181b6;
+  }
+
+  .xl\:focus\:border-mysql:focus {
+    border-color: #00618a;
+  }
+
+  .xl\:focus\:border-node:focus {
+    border-color: #83CD29;
+  }
+
+  .xl\:focus\:border-bootstrap:focus {
+    border-color: #59407f;
+  }
+
+  .xl\:focus\:border-jquery:focus {
+    border-color: #0769ad;
+  }
+
+  .xl\:focus\:border-git:focus {
+    border-color: #f34f29;
+  }
+
+  .xl\:focus\:border-github:focus {
+    border-color: #181616;
+  }
+
+  .xl\:focus\:border-npm:focus {
+    border-color: #cb3837;
+  }
+
+  .xl\:focus\:border-webpack:focus {
+    border-color: #1C78C0;
+  }
+
+  .xl\:focus\:border-express:focus {
+    border-color: #444;
+  }
+
+  .xl\:focus\:border-aws:focus {
+    border-color: #F7A80D;
+  }
+
+  .xl\:focus\:border-ubuntu:focus {
+    border-color: #DD4814;
+  }
+
+  .xl\:focus\:border-apache:focus {
+    border-color: #303284;
   }
 
   .xl\:rounded-none {
@@ -50836,6 +56437,346 @@ video {
     color: #702459;
   }
 
+  .xl\:placeholder-html::-webkit-input-placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:placeholder-html::-moz-placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:placeholder-html:-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:placeholder-html::-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:placeholder-html::placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:placeholder-css::-webkit-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:placeholder-css::-moz-placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:placeholder-css:-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:placeholder-css::-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:placeholder-css::placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:placeholder-js::-webkit-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:placeholder-js::-moz-placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:placeholder-js:-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:placeholder-js::-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:placeholder-js::placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:placeholder-react::-webkit-input-placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:placeholder-react::-moz-placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:placeholder-react:-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:placeholder-react::-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:placeholder-react::placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:placeholder-php::-webkit-input-placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:placeholder-php::-moz-placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:placeholder-php:-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:placeholder-php::-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:placeholder-php::placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:placeholder-mysql::-webkit-input-placeholder {
+    color: #00618a;
+  }
+
+  .xl\:placeholder-mysql::-moz-placeholder {
+    color: #00618a;
+  }
+
+  .xl\:placeholder-mysql:-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .xl\:placeholder-mysql::-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .xl\:placeholder-mysql::placeholder {
+    color: #00618a;
+  }
+
+  .xl\:placeholder-node::-webkit-input-placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:placeholder-node::-moz-placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:placeholder-node:-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:placeholder-node::-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:placeholder-node::placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:placeholder-bootstrap::-webkit-input-placeholder {
+    color: #59407f;
+  }
+
+  .xl\:placeholder-bootstrap::-moz-placeholder {
+    color: #59407f;
+  }
+
+  .xl\:placeholder-bootstrap:-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .xl\:placeholder-bootstrap::-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .xl\:placeholder-bootstrap::placeholder {
+    color: #59407f;
+  }
+
+  .xl\:placeholder-jquery::-webkit-input-placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:placeholder-jquery::-moz-placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:placeholder-jquery:-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:placeholder-jquery::-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:placeholder-jquery::placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:placeholder-git::-webkit-input-placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:placeholder-git::-moz-placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:placeholder-git:-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:placeholder-git::-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:placeholder-git::placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:placeholder-github::-webkit-input-placeholder {
+    color: #181616;
+  }
+
+  .xl\:placeholder-github::-moz-placeholder {
+    color: #181616;
+  }
+
+  .xl\:placeholder-github:-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .xl\:placeholder-github::-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .xl\:placeholder-github::placeholder {
+    color: #181616;
+  }
+
+  .xl\:placeholder-npm::-webkit-input-placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:placeholder-npm::-moz-placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:placeholder-npm:-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:placeholder-npm::-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:placeholder-npm::placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:placeholder-webpack::-webkit-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:placeholder-webpack::-moz-placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:placeholder-webpack:-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:placeholder-webpack::-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:placeholder-webpack::placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:placeholder-express::-webkit-input-placeholder {
+    color: #444;
+  }
+
+  .xl\:placeholder-express::-moz-placeholder {
+    color: #444;
+  }
+
+  .xl\:placeholder-express:-ms-input-placeholder {
+    color: #444;
+  }
+
+  .xl\:placeholder-express::-ms-input-placeholder {
+    color: #444;
+  }
+
+  .xl\:placeholder-express::placeholder {
+    color: #444;
+  }
+
+  .xl\:placeholder-aws::-webkit-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:placeholder-aws::-moz-placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:placeholder-aws:-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:placeholder-aws::-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:placeholder-aws::placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:placeholder-ubuntu::-webkit-input-placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:placeholder-ubuntu::-moz-placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:placeholder-ubuntu:-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:placeholder-ubuntu::-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:placeholder-ubuntu::placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:placeholder-apache::-webkit-input-placeholder {
+    color: #303284;
+  }
+
+  .xl\:placeholder-apache::-moz-placeholder {
+    color: #303284;
+  }
+
+  .xl\:placeholder-apache:-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .xl\:placeholder-apache::-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .xl\:placeholder-apache::placeholder {
+    color: #303284;
+  }
+
   .xl\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -52696,6 +58637,346 @@ video {
     color: #702459;
   }
 
+  .xl\:focus\:placeholder-html:focus::-webkit-input-placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:focus\:placeholder-html:focus::-moz-placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:focus\:placeholder-html:focus:-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:focus\:placeholder-html:focus::-ms-input-placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:focus\:placeholder-html:focus::placeholder {
+    color: #e54d26;
+  }
+
+  .xl\:focus\:placeholder-css:focus::-webkit-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:focus\:placeholder-css:focus::-moz-placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:focus\:placeholder-css:focus:-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:focus\:placeholder-css:focus::-ms-input-placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:focus\:placeholder-css:focus::placeholder {
+    color: #3d8fc6;
+  }
+
+  .xl\:focus\:placeholder-js:focus::-webkit-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:focus\:placeholder-js:focus::-moz-placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:focus\:placeholder-js:focus:-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:focus\:placeholder-js:focus::-ms-input-placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:focus\:placeholder-js:focus::placeholder {
+    color: #f0db4f;
+  }
+
+  .xl\:focus\:placeholder-react:focus::-webkit-input-placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:focus\:placeholder-react:focus::-moz-placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:focus\:placeholder-react:focus:-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:focus\:placeholder-react:focus::-ms-input-placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:focus\:placeholder-react:focus::placeholder {
+    color: #61dafb;
+  }
+
+  .xl\:focus\:placeholder-php:focus::-webkit-input-placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:focus\:placeholder-php:focus::-moz-placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:focus\:placeholder-php:focus:-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:focus\:placeholder-php:focus::-ms-input-placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:focus\:placeholder-php:focus::placeholder {
+    color: #6181b6;
+  }
+
+  .xl\:focus\:placeholder-mysql:focus::-webkit-input-placeholder {
+    color: #00618a;
+  }
+
+  .xl\:focus\:placeholder-mysql:focus::-moz-placeholder {
+    color: #00618a;
+  }
+
+  .xl\:focus\:placeholder-mysql:focus:-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .xl\:focus\:placeholder-mysql:focus::-ms-input-placeholder {
+    color: #00618a;
+  }
+
+  .xl\:focus\:placeholder-mysql:focus::placeholder {
+    color: #00618a;
+  }
+
+  .xl\:focus\:placeholder-node:focus::-webkit-input-placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:focus\:placeholder-node:focus::-moz-placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:focus\:placeholder-node:focus:-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:focus\:placeholder-node:focus::-ms-input-placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:focus\:placeholder-node:focus::placeholder {
+    color: #83CD29;
+  }
+
+  .xl\:focus\:placeholder-bootstrap:focus::-webkit-input-placeholder {
+    color: #59407f;
+  }
+
+  .xl\:focus\:placeholder-bootstrap:focus::-moz-placeholder {
+    color: #59407f;
+  }
+
+  .xl\:focus\:placeholder-bootstrap:focus:-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .xl\:focus\:placeholder-bootstrap:focus::-ms-input-placeholder {
+    color: #59407f;
+  }
+
+  .xl\:focus\:placeholder-bootstrap:focus::placeholder {
+    color: #59407f;
+  }
+
+  .xl\:focus\:placeholder-jquery:focus::-webkit-input-placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:focus\:placeholder-jquery:focus::-moz-placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:focus\:placeholder-jquery:focus:-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:focus\:placeholder-jquery:focus::-ms-input-placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:focus\:placeholder-jquery:focus::placeholder {
+    color: #0769ad;
+  }
+
+  .xl\:focus\:placeholder-git:focus::-webkit-input-placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:focus\:placeholder-git:focus::-moz-placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:focus\:placeholder-git:focus:-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:focus\:placeholder-git:focus::-ms-input-placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:focus\:placeholder-git:focus::placeholder {
+    color: #f34f29;
+  }
+
+  .xl\:focus\:placeholder-github:focus::-webkit-input-placeholder {
+    color: #181616;
+  }
+
+  .xl\:focus\:placeholder-github:focus::-moz-placeholder {
+    color: #181616;
+  }
+
+  .xl\:focus\:placeholder-github:focus:-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .xl\:focus\:placeholder-github:focus::-ms-input-placeholder {
+    color: #181616;
+  }
+
+  .xl\:focus\:placeholder-github:focus::placeholder {
+    color: #181616;
+  }
+
+  .xl\:focus\:placeholder-npm:focus::-webkit-input-placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:focus\:placeholder-npm:focus::-moz-placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:focus\:placeholder-npm:focus:-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:focus\:placeholder-npm:focus::-ms-input-placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:focus\:placeholder-npm:focus::placeholder {
+    color: #cb3837;
+  }
+
+  .xl\:focus\:placeholder-webpack:focus::-webkit-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:focus\:placeholder-webpack:focus::-moz-placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:focus\:placeholder-webpack:focus:-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:focus\:placeholder-webpack:focus::-ms-input-placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:focus\:placeholder-webpack:focus::placeholder {
+    color: #1C78C0;
+  }
+
+  .xl\:focus\:placeholder-express:focus::-webkit-input-placeholder {
+    color: #444;
+  }
+
+  .xl\:focus\:placeholder-express:focus::-moz-placeholder {
+    color: #444;
+  }
+
+  .xl\:focus\:placeholder-express:focus:-ms-input-placeholder {
+    color: #444;
+  }
+
+  .xl\:focus\:placeholder-express:focus::-ms-input-placeholder {
+    color: #444;
+  }
+
+  .xl\:focus\:placeholder-express:focus::placeholder {
+    color: #444;
+  }
+
+  .xl\:focus\:placeholder-aws:focus::-webkit-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:focus\:placeholder-aws:focus::-moz-placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:focus\:placeholder-aws:focus:-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:focus\:placeholder-aws:focus::-ms-input-placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:focus\:placeholder-aws:focus::placeholder {
+    color: #F7A80D;
+  }
+
+  .xl\:focus\:placeholder-ubuntu:focus::-webkit-input-placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:focus\:placeholder-ubuntu:focus::-moz-placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:focus\:placeholder-ubuntu:focus:-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:focus\:placeholder-ubuntu:focus::-ms-input-placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:focus\:placeholder-ubuntu:focus::placeholder {
+    color: #DD4814;
+  }
+
+  .xl\:focus\:placeholder-apache:focus::-webkit-input-placeholder {
+    color: #303284;
+  }
+
+  .xl\:focus\:placeholder-apache:focus::-moz-placeholder {
+    color: #303284;
+  }
+
+  .xl\:focus\:placeholder-apache:focus:-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .xl\:focus\:placeholder-apache:focus::-ms-input-placeholder {
+    color: #303284;
+  }
+
+  .xl\:focus\:placeholder-apache:focus::placeholder {
+    color: #303284;
+  }
+
   .xl\:pointer-events-none {
     pointer-events: none;
   }
@@ -53307,6 +59588,74 @@ video {
     color: #702459;
   }
 
+  .xl\:text-html {
+    color: #e54d26;
+  }
+
+  .xl\:text-css {
+    color: #3d8fc6;
+  }
+
+  .xl\:text-js {
+    color: #f0db4f;
+  }
+
+  .xl\:text-react {
+    color: #61dafb;
+  }
+
+  .xl\:text-php {
+    color: #6181b6;
+  }
+
+  .xl\:text-mysql {
+    color: #00618a;
+  }
+
+  .xl\:text-node {
+    color: #83CD29;
+  }
+
+  .xl\:text-bootstrap {
+    color: #59407f;
+  }
+
+  .xl\:text-jquery {
+    color: #0769ad;
+  }
+
+  .xl\:text-git {
+    color: #f34f29;
+  }
+
+  .xl\:text-github {
+    color: #181616;
+  }
+
+  .xl\:text-npm {
+    color: #cb3837;
+  }
+
+  .xl\:text-webpack {
+    color: #1C78C0;
+  }
+
+  .xl\:text-express {
+    color: #444;
+  }
+
+  .xl\:text-aws {
+    color: #F7A80D;
+  }
+
+  .xl\:text-ubuntu {
+    color: #DD4814;
+  }
+
+  .xl\:text-apache {
+    color: #303284;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -53679,6 +60028,74 @@ video {
     color: #702459;
   }
 
+  .xl\:hover\:text-html:hover {
+    color: #e54d26;
+  }
+
+  .xl\:hover\:text-css:hover {
+    color: #3d8fc6;
+  }
+
+  .xl\:hover\:text-js:hover {
+    color: #f0db4f;
+  }
+
+  .xl\:hover\:text-react:hover {
+    color: #61dafb;
+  }
+
+  .xl\:hover\:text-php:hover {
+    color: #6181b6;
+  }
+
+  .xl\:hover\:text-mysql:hover {
+    color: #00618a;
+  }
+
+  .xl\:hover\:text-node:hover {
+    color: #83CD29;
+  }
+
+  .xl\:hover\:text-bootstrap:hover {
+    color: #59407f;
+  }
+
+  .xl\:hover\:text-jquery:hover {
+    color: #0769ad;
+  }
+
+  .xl\:hover\:text-git:hover {
+    color: #f34f29;
+  }
+
+  .xl\:hover\:text-github:hover {
+    color: #181616;
+  }
+
+  .xl\:hover\:text-npm:hover {
+    color: #cb3837;
+  }
+
+  .xl\:hover\:text-webpack:hover {
+    color: #1C78C0;
+  }
+
+  .xl\:hover\:text-express:hover {
+    color: #444;
+  }
+
+  .xl\:hover\:text-aws:hover {
+    color: #F7A80D;
+  }
+
+  .xl\:hover\:text-ubuntu:hover {
+    color: #DD4814;
+  }
+
+  .xl\:hover\:text-apache:hover {
+    color: #303284;
+  }
+
   .xl\:focus\:text-transparent:focus {
     color: transparent;
   }
@@ -54049,6 +60466,74 @@ video {
 
   .xl\:focus\:text-pink-900:focus {
     color: #702459;
+  }
+
+  .xl\:focus\:text-html:focus {
+    color: #e54d26;
+  }
+
+  .xl\:focus\:text-css:focus {
+    color: #3d8fc6;
+  }
+
+  .xl\:focus\:text-js:focus {
+    color: #f0db4f;
+  }
+
+  .xl\:focus\:text-react:focus {
+    color: #61dafb;
+  }
+
+  .xl\:focus\:text-php:focus {
+    color: #6181b6;
+  }
+
+  .xl\:focus\:text-mysql:focus {
+    color: #00618a;
+  }
+
+  .xl\:focus\:text-node:focus {
+    color: #83CD29;
+  }
+
+  .xl\:focus\:text-bootstrap:focus {
+    color: #59407f;
+  }
+
+  .xl\:focus\:text-jquery:focus {
+    color: #0769ad;
+  }
+
+  .xl\:focus\:text-git:focus {
+    color: #f34f29;
+  }
+
+  .xl\:focus\:text-github:focus {
+    color: #181616;
+  }
+
+  .xl\:focus\:text-npm:focus {
+    color: #cb3837;
+  }
+
+  .xl\:focus\:text-webpack:focus {
+    color: #1C78C0;
+  }
+
+  .xl\:focus\:text-express:focus {
+    color: #444;
+  }
+
+  .xl\:focus\:text-aws:focus {
+    color: #F7A80D;
+  }
+
+  .xl\:focus\:text-ubuntu:focus {
+    color: #DD4814;
+  }
+
+  .xl\:focus\:text-apache:focus {
+    color: #303284;
   }
 
   .xl\:text-xs {
