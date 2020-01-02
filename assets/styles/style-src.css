@@ -3,11 +3,11 @@
 @tailwind components;
 
 .skill-icon-box, .tool-icon-box {
-  @apply flex flex-col justify-center items-center h-32 w-24 m-4 p-2 bg-gray-100 rounded shadow-inner;
+  @apply flex flex-col justify-center items-center h-32 w-24 m-4 p-2 bg-gray-200 rounded shadow-inner;
 }
 
 .skill-icon-box:hover, .tool-icon-box:hover {
-  @apply bg-white border shadow-lg;
+  @apply bg-white border .border-gray-200 shadow-lg;
 }
 
 @tailwind utilities;
