@@ -20,17 +20,34 @@
 
     <!-- HEADER -->
     <header id="header">
-      <nav id="nav">
-        <div id="nav-logo-circle"  class="h-8 w-8 flex justify-center items-center border-2 border-black rounded-full hover:border-gray-500 cursor-pointer">
-          <i id="nav-logo-icon" class="fas fa-broadcast-tower"></i>
-        </div>
-        <h5 id="nav-header">Adison Lay</h5>
-        <h6 id="nav-subheader">Web Developer</h6>
-        <div id="nav-links-container">
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#resume">Resume</a>
-          <a href="#contact">Contact</a>
+      <nav id="nav" class="fixed w-full bg-blue-500 flex justify-between">
+        <a href="/" id="nav-logo-container" class="flex">
+          <div id="nav-logo-circle" class="h-12 w-12 p-2 m-4 flex justify-center items-center border-4 border-white rounded-full hover:border-blue-700">
+            <i id="nav-logo-icon" class="fas fa-broadcast-tower text-white text-2xl"></i>
+          </div>
+          <div id="nav-header-box" class="flex flex-col justify-center">
+            <h5 id="nav-header" class="text-xl text-white font-bold">Adison Lay</h5>
+            <h6 id="nav-subheader" class="text-white">Web Developer</h6>
+          </div>
+        </a>
+
+        <div id="nav-links-container" class="flex justify-end items-center">
+          <a href="#about" class="group flex flex-col items-center">
+            <div class="nav-link text-white font-semibold uppercase mx-4">About</div>
+            <div class="nav-link-line h-1 w-0 group-hover:w-8 group-hover:bg-blue-700"></div>
+          </a>
+          <a href="#projects" class="group flex flex-col items-center">
+            <div class="nav-link text-white font-semibold uppercase mx-4">Projects</div>
+            <div class="nav-link-line h-1 w-0 group-hover:w-8 group-hover:bg-blue-700"></div>
+          </a>
+          <a href="#resume" class="group flex flex-col items-center">
+            <div class="nav-link text-white font-semibold uppercase mx-4">Resume</div>
+            <div class="nav-link-line h-1 w-0 group-hover:w-8 group-hover:bg-blue-700"></div>
+          </a>
+          <a href="#contact" class="group flex flex-col items-center">
+            <div class="nav-link text-white font-semibold uppercase mx-4">Contact</div>
+            <div class="nav-link-line h-1 w-0 group-hover:w-8 group-hover:bg-blue-700"></div>
+          </a>
         </div>
       </nav>
     </header>
@@ -68,80 +85,80 @@
 
         <div id="skills">Technical Skills</div>
         <div id="skills-icon-row" class="text-gray-600 flex flex-row flex-wrap">
-          <div class="skill-icon-box">
-            <i class="devicon-html5-plain text-6xl hover:text-html"></i>
+          <div class="skill-icon-box hover:text-html">
+            <i class="devicon-html5-plain text-6xl"></i>
             <span>HTML5</span>
           </div>
-          <div class="skill-icon-box">
-            <i class="devicon-css3-plain text-6xl hover:text-css"></i>
+          <div class="skill-icon-box hover:text-css">
+            <i class="devicon-css3-plain text-6xl"></i>
             <span>CSS3</span>
           </div>
-          <div class="skill-icon-box">
-            <i class="fab fa-js-square text-6xl hover:text-js"></i>
+          <div class="skill-icon-box hover:text-js">
+            <i class="fab fa-js text-6xl"></i>
             <span>JavaScript</span>
           </div>
-          <div class="skill-icon-box">
-            <i class="devicon-react-original text-6xl hover:text-react"></i>
+          <div class="skill-icon-box hover:text-react">
+            <i class="devicon-react-original text-6xl"></i>
             <span>React</span>
           </div>
-          <div class="skill-icon-box">
-            <i class="devicon-php-plain text-6xl hover:text-php"></i>
+          <div class="skill-icon-box hover:text-php">
+            <i class="devicon-php-plain text-6xl"></i>
             <span>PHP</span>
           </div>
-          <div class="skill-icon-box">
-            <i class="devicon-mysql-plain text-6xl hover:text-mysql"></i>
+          <div class="skill-icon-box hover:text-mysql">
+            <i class="devicon-mysql-plain text-6xl"></i>
             <span>MySQL</span>
           </div>
-          <div class="skill-icon-box">
-            <i class="devicon-nodejs-plain text-6xl hover:text-node"></i>
+          <div class="skill-icon-box hover:text-node">
+            <i class="devicon-nodejs-plain text-6xl"></i>
             <span>Node.js</span>
           </div>
-          <div class="skill-icon-box">
-            <i class="devicon-bootstrap-plain text-6xl hover:text-bootstrap"></i>
+          <div class="skill-icon-box hover:text-bootstrap">
+            <i class="devicon-bootstrap-plain text-6xl"></i>
             <span>Bootstrap</span>
           </div>
-          <div class="skill-icon-box">
-            <i class="devicon-jquery-plain text-6xl hover:text-jquery"></i>
+          <div class="skill-icon-box hover:text-jquery">
+            <i class="devicon-jquery-plain text-6xl"></i>
             <span>jQuery</span>
           </div>
         </div>
 
         <div id="tools">Tools & Technologies</div>
         <div id="tools-icon-row" class="text-gray-600 flex flex-row flex-wrap">
-          <div class="tool-icon-box">
-            <i class="devicon-git-plain text-6xl hover:text-git"></i>
+          <div class="tool-icon-box hover:text-git">
+            <i class="devicon-git-plain text-6xl"></i>
             <span>Git</span>
           </div>
-          <div class="tool-icon-box">
-            <i class="devicon-github-plain text-6xl hover:text-github"></i>
+          <div class="tool-icon-box hover:text-github">
+            <i class="devicon-github-plain text-6xl"></i>
             <span>GitHub</span>
           </div>
-          <div class="tool-icon-box">
-            <i class="fab fa-npm text-6xl hover:text-npm"></i>
+          <div class="tool-icon-box hover:text-npm">
+            <i class="fab fa-npm text-6xl"></i>
             <span>npm</span>
           </div>
-          <div class="tool-icon-box">
-            <i class="devicon-webpack-plain text-6xl hover:text-webpack"></i>
+          <div class="tool-icon-box hover:text-webpack">
+            <i class="devicon-webpack-plain text-6xl"></i>
             <span>Webpack</span>
           </div>
-          <div class="tool-icon-box">
-            <i class="devicon-express-original text-6xl hover:text-express"></i>
+          <div class="tool-icon-box hover:text-express">
+            <i class="devicon-express-original text-6xl"></i>
             <span>Express</span>
           </div>
-          <div class="tool-icon-box">
-            <i class="fab fa-aws text-6xl hover:text-aws"></i>
+          <div class="tool-icon-box hover:text-aws">
+            <i class="fab fa-aws text-6xl"></i>
             <span>AWS</span>
           </div>
-          <div class="tool-icon-box">
-            <i class="devicon-ubuntu-plain text-6xl hover:text-ubuntu"></i>
+          <div class="tool-icon-box hover:text-ubuntu">
+            <i class="devicon-ubuntu-plain text-6xl"></i>
             <span>Ubuntu</span>
           </div>
-          <div class="tool-icon-box">
-            <i class="devicon-apache-plain text-6xl hover:text-apache"></i>
+          <div class="tool-icon-box hover:text-apache">
+            <i class="devicon-apache-plain text-6xl"></i>
             <span>Apache</span>
           </div>
-          <div class="tool-icon-box">
-            <svg class="fill-current hover:text-teal-500" width="64" height="64" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+          <div class="tool-icon-box hover:text-teal-500">
+            <svg class="fill-current" width="64" height="64" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
               <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
             </svg>
             <span>Tailwind</span>
@@ -152,14 +169,15 @@
       <section id="projects">
         <h2 id="projects-header">Recent Applications</h2>
         <div class="project-card-container flex justify-between content-between">
+
           <div class="project-card max-w-sm m-6 border rounded overflow-hidden shadow hover:shadow-lg">
             <div class="card-img w-full bg-orange-600 h-56"></div><!-- <img src="" alt=""> -->
             <div class="card-body p-4 bg-white">
               <div class="mb-2 flex justify-between">
                 <span class="card-header text-lg font-bold">Shopoly</span>
                 <div class="card-links">
-                  <button class="btn-text bg-gray-100 hover:bg-gray-300 text-xs font-medium uppercase px-2 py-1 rounded">Live</button>
-                  <button class="btn-text bg-gray-100 hover:bg-gray-300 text-xs font-medium uppercase px-2 py-1 rounded">Source</button>
+                  <button class="btn-text bg-gray-100 hover:bg-gray-300 text-blue-500 text-xs font-medium uppercase px-2 py-1 rounded focus:outline-none focus:shadow-outline">Live</button>
+                  <button class="btn-text bg-gray-100 hover:bg-gray-300 text-blue-500 text-xs font-medium uppercase px-2 py-1 rounded focus:outline-none focus:shadow-outline">Source</button>
                 </div>
               </div>
               <p class="card-text">
