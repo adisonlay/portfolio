@@ -16,7 +16,7 @@
     <script src="scripts/main.js"></script>
   </head>
 
-  <body class="bg-gray-100">
+  <body>
 
     <!-- HEADER -->
     <header id="header">
@@ -152,22 +152,24 @@
       <section id="projects">
         <h2 id="projects-header">Recent Applications</h2>
         <div class="project-card-container flex justify-between content-between">
-          <div class="project-card max-w-xs m-6 rounded overflow-hidden shadow cursor-pointer hover:shadow-lg">
-            <div class="card-img w-full bg-orange-600 h-40"></div><!-- <img src="" alt=""> -->
-            <div class="card-body p-4 bg-white hover:bg-gray-200">
-              <div class="card-header mb-2 flex justify-between">
-                <span class="text-lg font-bold">Shopoly</span>
+          <div class="project-card max-w-sm m-6 border rounded overflow-hidden shadow hover:shadow-lg">
+            <div class="card-img w-full bg-orange-600 h-56"></div><!-- <img src="" alt=""> -->
+            <div class="card-body p-4 bg-white">
+              <div class="mb-2 flex justify-between">
+                <span class="card-header text-lg font-bold">Shopoly</span>
                 <div class="card-links">
-                  <button>Live</button>
-                  <button>Source</button>
+                  <button class="btn-text bg-gray-100 hover:bg-gray-300 text-xs font-medium uppercase px-2 py-1 rounded">Live</button>
+                  <button class="btn-text bg-gray-100 hover:bg-gray-300 text-xs font-medium uppercase px-2 py-1 rounded">Source</button>
                 </div>
               </div>
-              <p class="card-text">A Monopoly themed full-stack LAMP & React shopping cart app where shoppers can order items
-                online.</p>
+              <p class="card-text">
+                A Monopoly themed full-stack LAMP & React shopping cart app where shoppers can order items online.
+              </p>
               <hr class="my-4" />
               <p class="card-tags text-sm font-bold">React | Material-UI | PHP | MySQL</p>
             </div>
           </div>
+
           <div class="project-card">TinDog</div>
           <div class="project-card">Roadster</div>
           <div class="project-card">Super Match Bros.</div>
