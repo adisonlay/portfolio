@@ -56,37 +56,60 @@
     <main id="main">
 
       <section id="splash" class="h-screen bg-blue-500 flex flex-col justify-center items-center">
-        <img src="assets/images/progressive-app.svg" alt="Graphic with devices and shapes" class="w-1/4" />
-        <h1 id="splash-header" class="text-6xl font-semibold text-white">Adison Lay</h1>
-        <h2 id="splash-subheader" class="text-3xl font-medium text-white">Web Developer</h2>
+        <img src="assets/images/progressive-app.svg" alt="Graphic with devices and shapes" class="w-48 md:w-56 lg:w-64" />
+        <h1 id="splash-header" class="text-2xl md:text-4xl lg:text-6xl font-semibold text-white">Adison Lay</h1>
+        <h2 id="splash-subheader" class="text-xl md:text-2xl lg:text-3xl font-medium text-white">Web Developer</h2>
         <a href="#about" class="absolute inset-x-auto bottom-0 text-xl text-white h-8 w-8 my-4 flex justify-center items-center border-4 border-white rounded-full hover:border-blue-700">
           <i class="fas fa-angle-down"></i>
         </a>
       </section>
 
-      <section id="about">
-        <h2 id="about-header">About Me</h2>
-        <p id="about-p1">
-          I am a full-stack web developer currently seeking a new opportunity. As someone who is passionate about programming,
-          logic, and technology, I relish any opportunity to apply my skills in development projects or jump into learning new
-          technologies.
-        </p>
-        <p id="about-p2">
-          My educational background is in mathematics and statistics which has trained me to solve problems methodically and
-          analytically. My desire to utilize my skills in logical reasoning and problem solving in my career led to my interest
-          in coding and development. I am currently enrolled at LearningFuze, an accelerated Web Development Program, which has
-          provided me with a solid foundation in a variety of aspects related to web development. I have gained strong knowledge
-          in building front-end applications using JavaScript, jQuery, and React. I have also experience working with back-end
-          technologies such as PHP and MySQL.
-        </p>
-        <p id="about-p3">
-          My analytical thinking, along with the skills that I have developed as a programmer, have prepared me to be a great
-          addition to a development team. I would greatly value the opportunity to contribute to your team and organization.
-        </p>
-        <i class="fas fa-smile"></i><!-- <img src="" alt="" /> -->
+      <section id="about" class="section-container mx-auto pt-32 max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl">
+        <h2 id="about-header" class="section-header text-2xl md:text-3xl lg:text-4xl">About Me</h2>
+        <div class="divider h-1 w-1/4 my-4 bg-blue-500"></div>
 
-        <div id="skills">Technical Skills</div>
-        <div id="skills-icon-row" class="text-gray-600 flex flex-row flex-wrap">
+        <div id="about-box" class="flex flex-col md:flex-row mb-4">
+          <img src="assets/images/headshot.jpg" alt="Photo of Adison Lay" class="w-48 md:h-56 lg:h-64 m-4" />
+          <div id="about-p-box" class="flex flex-col">
+
+            <div id="about-first-line" class="flex flex-col md:flex-row justify-between items-baseline mb-2">
+              <p id="about-p0" class="text-lg font-semibold">Adison Lay | Orange County, California</p>
+              <div id="about-btn-group">
+                <button class="icon-btn bg-gray-100 hover:bg-gray-300 text-blue-500 p-2 mx-1 rounded focus:outline-none focus:shadow-outline">
+                  <i class="fas fa-envelope-square text-3xl"></i>
+                </button>
+                <button class="icon-btn bg-gray-100 hover:bg-gray-300 text-blue-500 p-2 mx-1 rounded focus:outline-none focus:shadow-outline">
+                  <i class="fab fa-linkedin text-3xl"></i>
+                </button>
+                <button class="icon-btn bg-gray-100 hover:bg-gray-300 text-blue-500 p-2 mx-1 rounded focus:outline-none focus:shadow-outline">
+                  <i class="fab fa-github-square text-3xl"></i>
+                </button>
+              </div>
+            </div>
+
+            <p id="about-p1" class="leading-relaxed mb-2">
+              I am a full-stack web developer currently seeking a new opportunity. As someone who is passionate about programming,
+              logic, and technology, I relish any opportunity to apply my skills in development projects or jump into learning new
+              technologies.
+            </p>
+            <p id="about-p2" class="leading-relaxed mb-2">
+              My educational background is in mathematics and statistics which has trained me to solve problems methodically and
+              analytically. My desire to utilize my skills in logical reasoning and problem solving in my career led to my interest
+              in coding and development. I am currently enrolled at LearningFuze, an accelerated Web Development Program, which has
+              provided me with a solid foundation in a variety of aspects related to web development. I have gained strong knowledge
+              in building front-end applications using JavaScript, jQuery, and React. I have also experience working with back-end
+              technologies such as PHP and MySQL.
+            </p>
+            <p id="about-p3" class="leading-relaxed mb-2">
+              My analytical thinking, along with the skills that I have developed as a programmer, have prepared me to be a great
+              addition to a development team. I would greatly value the opportunity to contribute to your team and organization.
+            </p>
+
+          </div>
+        </div>
+
+        <div id="skills" class="text-lg font-semibold">Technical Skills</div>
+        <div id="skills-icon-row" class="text-gray-600 mb-2 flex flex-row flex-wrap justify-center content-center">
           <div class="skill-icon-box hover:text-html">
             <i class="devicon-html5-plain text-6xl"></i>
             <span>HTML5</span>
@@ -125,8 +148,8 @@
           </div>
         </div>
 
-        <div id="tools">Tools & Technologies</div>
-        <div id="tools-icon-row" class="text-gray-600 flex flex-row flex-wrap">
+        <div id="tools" class="text-lg font-semibold">Tools & Technologies</div>
+        <div id="tools-icon-row" class="text-gray-600 mb-2 flex flex-row flex-wrap justify-center content-center">
           <div class="tool-icon-box hover:text-git">
             <i class="devicon-git-plain text-6xl"></i>
             <span>Git</span>
