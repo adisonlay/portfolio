@@ -667,6 +667,28 @@ video {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
+.btn-text {
+  background-color: #f7fafc;
+  color: #4299e1;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.btn-text:hover {
+  background-color: #e2e8f0;
+}
+
+.btn-text:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
