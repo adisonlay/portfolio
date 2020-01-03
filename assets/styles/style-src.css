@@ -10,4 +10,12 @@
   @apply bg-white border shadow-lg;
 }
 
+.project-card {
+  @apply max-w-md m-6 bg-white border rounded overflow-hidden shadow;
+}
+
+.project-card:hover {
+  @apply bg-gray-200 shadow-lg;
+}
+
 @tailwind utilities;
