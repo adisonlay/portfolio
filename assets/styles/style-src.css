@@ -15,7 +15,6 @@
   .section-container {
     @apply max-w-3xl;
   }
-
   .section-header {
     @apply text-3xl;
   }
@@ -26,7 +25,6 @@
   .section-container {
     @apply max-w-5xl;
   }
-
   .section-header {
     @apply text-4xl;
   }
@@ -43,56 +41,56 @@
   @apply h-1 w-1/4 my-4 bg-blue-500;
 }
 
+.circle {
+  @apply flex justify-center items-center border-4 border-white rounded-full;
+}
+  .circle:hover {
+    @apply border-blue-700;
+  }
+
 .icon-btn {
   @apply bg-gray-100 text-blue-500 p-2 mx-1 rounded;
 }
-
-.icon-btn:hover {
-  @apply bg-gray-300;
-}
-
-.icon-btn:focus {
-  @apply outline-none shadow-outline;
-}
+  .icon-btn:hover {
+    @apply bg-gray-300;
+  }
+  .icon-btn:focus {
+    @apply outline-none shadow-outline;
+  }
 
 .skill-icon-box, .tool-icon-box {
   @apply flex flex-col justify-center items-center h-32 w-24 m-4 p-2 bg-gray-100 rounded shadow-inner;
 }
-
-.skill-icon-box:hover, .tool-icon-box:hover {
-  @apply bg-white border shadow-lg;
-}
+  .skill-icon-box:hover, .tool-icon-box:hover {
+    @apply bg-white border shadow-lg;
+  }
 
 .project-card {
   @apply max-w-md m-6 bg-white border rounded overflow-hidden shadow;
 }
-
-.project-card:hover {
-  @apply bg-gray-200 shadow-lg;
-}
+  .project-card:hover {
+    @apply bg-gray-200 shadow-lg;
+  }
 
 .btn {
   @apply uppercase rounded;
 }
-
-.btn:focus {
-  @apply outline-none shadow-outline;
-}
+  .btn:focus {
+    @apply outline-none shadow-outline;
+  }
 
 .btn-text {
   @apply bg-gray-100 text-blue-500 text-xs font-medium px-2 py-1;
 }
-
-.btn-text:hover {
-  @apply bg-gray-300;
-}
+  .btn-text:hover {
+    @apply bg-gray-300;
+  }
 
 .btn-filled {
   @apply bg-blue-500 text-white text-sm px-4 py-2 shadow;
 }
-
-.btn-filled:hover {
-  @apply bg-blue-700 shadow-lg;
-}
+  .btn-filled:hover {
+    @apply bg-blue-700 shadow-lg;
+  }
 
 @tailwind utilities;
