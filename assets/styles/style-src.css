@@ -71,16 +71,28 @@
   @apply bg-gray-200 shadow-lg;
 }
 
+.btn {
+  @apply uppercase rounded;
+}
+
+.btn:focus {
+  @apply outline-none shadow-outline;
+}
+
 .btn-text {
-  @apply bg-gray-100 text-blue-500 text-xs font-medium uppercase px-2 py-1 rounded;
+  @apply bg-gray-100 text-blue-500 text-xs font-medium px-2 py-1;
 }
 
 .btn-text:hover {
   @apply bg-gray-300;
 }
 
-.btn-text:focus {
-  @apply outline-none shadow-outline;
+.btn-filled {
+  @apply bg-blue-500 text-white text-sm px-4 py-2 shadow;
+}
+
+.btn-filled:hover {
+  @apply bg-blue-700 shadow-lg;
 }
 
 @tailwind utilities;
