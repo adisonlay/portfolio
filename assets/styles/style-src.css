@@ -43,6 +43,18 @@
   @apply h-1 w-1/4 my-4 bg-blue-500;
 }
 
+.icon-btn {
+  @apply bg-gray-100 text-blue-500 p-2 mx-1 rounded;
+}
+
+.icon-btn:hover {
+  @apply bg-gray-300;
+}
+
+.icon-btn:focus {
+  @apply outline-none shadow-outline;
+}
+
 .skill-icon-box, .tool-icon-box {
   @apply flex flex-col justify-center items-center h-32 w-24 m-4 p-2 bg-gray-100 rounded shadow-inner;
 }

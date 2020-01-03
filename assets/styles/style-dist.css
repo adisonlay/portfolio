@@ -679,6 +679,24 @@ video {
   background-color: #4299e1;
 }
 
+.icon-btn {
+  background-color: #f7fafc;
+  color: #4299e1;
+  padding: 0.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.icon-btn:hover {
+  background-color: #e2e8f0;
+}
+
+.icon-btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
 .skill-icon-box, .tool-icon-box {
   display: -webkit-box;
   display: flex;
