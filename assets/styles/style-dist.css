@@ -627,6 +627,60 @@ video {
   }
 }
 
+.section-container {
+  /* @apply mx-auto py-32 max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl; */
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  max-width: 36rem;
+}
+
+.section-header {
+  /* @apply text-2xl md:text-3xl lg:text-4xl; */
+  font-size: 1.5rem;
+}
+
+/* Breakpoint Medium (md) */
+
+@media (min-width: 768px) {
+  .section-container {
+    max-width: 48rem;
+  }
+
+  .section-header {
+    font-size: 1.875rem;
+  }
+}
+
+/* Breakpoint Large (lg) */
+
+@media (min-width: 1024px) {
+  .section-container {
+    max-width: 64rem;
+  }
+
+  .section-header {
+    font-size: 2.25rem;
+  }
+}
+
+/* Breakpoint Extra Large (xl) */
+
+@media (min-width: 1280px) {
+  .section-container {
+    max-width: 72rem;
+  }
+}
+
+.divider {
+  height: 0.25rem;
+  width: 25%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #4299e1;
+}
+
 .skill-icon-box, .tool-icon-box {
   display: -webkit-box;
   display: flex;

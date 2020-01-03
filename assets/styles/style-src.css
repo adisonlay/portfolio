@@ -2,6 +2,47 @@
 
 @tailwind components;
 
+.section-container {
+  @apply mx-auto py-32 max-w-xl;
+}
+
+.section-header {
+  @apply text-2xl;
+}
+
+/* Breakpoint Medium (md) */
+@media (min-width: 768px) {
+  .section-container {
+    @apply max-w-3xl;
+  }
+
+  .section-header {
+    @apply text-3xl;
+  }
+}
+
+/* Breakpoint Large (lg) */
+@media (min-width: 1024px) {
+  .section-container {
+    @apply max-w-5xl;
+  }
+
+  .section-header {
+    @apply text-4xl;
+  }
+}
+
+/* Breakpoint Extra Large (xl) */
+@media (min-width: 1280px) {
+  .section-container {
+    @apply max-w-6xl;
+  }
+}
+
+.divider {
+  @apply h-1 w-1/4 my-4 bg-blue-500;
+}
+
 .skill-icon-box, .tool-icon-box {
   @apply flex flex-col justify-center items-center h-32 w-24 m-4 p-2 bg-gray-100 rounded shadow-inner;
 }
