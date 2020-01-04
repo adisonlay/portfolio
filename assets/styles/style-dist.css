@@ -630,6 +630,8 @@ video {
 .section-container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-top: 8rem;
   padding-bottom: 8rem;
   max-width: 36rem;
@@ -643,6 +645,8 @@ video {
 
 @media (min-width: 768px) {
   .section-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
     max-width: 48rem;
   }
 
@@ -655,6 +659,8 @@ video {
 
 @media (min-width: 1024px) {
   .section-container {
+    padding-left: 0;
+    padding-right: 0;
     max-width: 64rem;
   }
 
