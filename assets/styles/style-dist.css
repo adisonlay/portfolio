@@ -673,7 +673,7 @@ video {
 
 .divider {
   height: 0.25rem;
-  width: 25%;
+  width: 16.666667%;
   margin-top: 1rem;
   margin-bottom: 1rem;
   background-color: #4299e1;
@@ -696,6 +696,7 @@ video {
 }
 
 .icon-btn {
+  display: inline-block;
   background-color: #f7fafc;
   color: #4299e1;
   padding: 0.5rem;
