@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adison Lay | Web Developer</title>
+
+    <!-- FONTS & ICONS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
+    <script src="https://kit.fontawesome.com/ab6b2503d1.js"></script>
+
+    <!-- STYLES & SCRIPTS -->
+    <link rel="stylesheet" href="assets/styles/style-dist.css" />
+    <script src="scripts/main.js"></script>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <header id="header">
+      <nav id="nav" class="fixed w-full bg-blue-500 flex flex-wrap justify-between items-center">
+        <a href="/" id="nav-logo-container" class="flex">
+          <div id="nav-logo-circle" class="h-12 w-12 p-2 m-4 circle">
+            <i id="nav-logo-icon" class="fas fa-broadcast-tower text-white text-2xl"></i>
+          </div>
+          <div id="nav-header-box" class="flex flex-col justify-center">
+            <h5 id="nav-header" class="text-xl text-white font-bold">Adison Lay</h5>
+            <h6 id="nav-subheader" class="text-white">Web Developer</h6>
+          </div>
+        </a>
+
+        <div class="block mr-4 md:hidden">
+          <button id="nav-menu-btn" class="flex items-center px-4 py-2 border-2 rounded text-white border-white hover:border-blue-700">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+
+        <div id="nav-links-container" class="w-full flex-col items-start md:flex md:w-auto md:flex-row md:justify-end md:items-center flex hidden">
+          <a href="#about" class="nav-link group flex flex-col items-center my-2 md:my-0">
+            <div class="nav-link-text text-white font-semibold uppercase mx-4">About</div>
+            <div class="nav-link-line h-1 w-0 group-hover:w-8 group-hover:bg-blue-700"></div>
+          </a>
+          <a href="#projects" class="nav-link group flex flex-col items-center my-2 md:my-0">
+            <div class="nav-link-text text-white font-semibold uppercase mx-4">Projects</div>
+            <div class="nav-link-line h-1 w-0 group-hover:w-8 group-hover:bg-blue-700"></div>
+          </a>
+          <a href="#resume" class="nav-link group flex flex-col items-center my-2 md:my-0">
+            <div class="nav-link-text text-white font-semibold uppercase mx-4">Resume</div>
+            <div class="nav-link-line h-1 w-0 group-hover:w-8 group-hover:bg-blue-700"></div>
+          </a>
+          <a href="#contact" class="nav-link group flex flex-col items-center my-2 md:my-0">
+            <div class="nav-link-text text-white font-semibold uppercase mx-4">Contact</div>
+            <div class="nav-link-line h-1 w-0 group-hover:w-8 group-hover:bg-blue-700"></div>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main">
+
+      <!-- SPLASH SCREEN -->
+      <section id="splash" class="h-screen bg-blue-500 flex flex-col justify-center items-center">
+        <img src="assets/images/progressive-app.svg" alt="Graphic with devices and shapes" class="w-48 md:w-56 lg:w-64" />
+        <h1 id="splash-header" class="text-2xl md:text-4xl lg:text-6xl font-semibold text-white">Adison Lay</h1>
+        <h2 id="splash-subheader" class="text-xl md:text-2xl lg:text-3xl font-medium text-white">Web Developer</h2>
+        <a href="#about" class="h-8 w-8 absolute inset-x-auto bottom-0 my-4 circle">
+          <i class="fas fa-angle-down text-xl text-white"></i>
+        </a>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section id="about" class="bg-white">
+        <div class="section-container">
+          <h2 id="about-header" class="section-header">About Me</h2>
+          <div class="divider"></div>
+
+          <div id="about-box" class="flex flex-col md:flex-row mb-4">
+            <img src="assets/images/headshot.jpg" alt="Photo of Adison Lay" class="w-48 md:h-64 mx-0 my-4 md:m-4 xl:self-center" />
+            <div id="about-p-box" class="flex flex-col">
+
+              <div id="about-first-line" class="flex flex-col md:flex-row justify-between items-baseline my-2">
+                <p id="about-p0" class="text-lg font-semibold">Adison Lay | Orange County, California</p>
+                <div id="about-btn-group" class="my-4 md:my-0">
+                  <a href="mailto:adisonlay@gmail.com" target="_blank" class="icon-btn" title="Email">
+                    <i class="fas fa-envelope-square text-3xl"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/adisonlay" target="_blank" class="icon-btn" title="LinkedIn">
+                    <i class="fab fa-linkedin text-3xl"></i>
+                  </a>
+                  <a href="https://github.com/adisonlay" target="_blank" class="icon-btn" title="GitHub">
+                    <i class="fab fa-github-square text-3xl"></i>
+                  </a>
+                </div>
+              </div>
+
+              <p id="about-p1" class="leading-relaxed mb-4">
+                I am a full-stack web developer currently seeking a new opportunity. As someone who is passionate about programming,
+                logic, and technology, I relish any opportunity to apply my skills in development projects or jump into learning new
+                technologies.
+              </p>
+              <p id="about-p2" class="leading-relaxed mb-4">
+                My educational background is in mathematics and statistics which has trained me to solve problems methodically and
+                analytically. My desire to utilize my skills in logical reasoning and problem solving in my career led to my interest in
+                coding and development. I recently completed an accelerated Web Development Program, which has provided me with a solid
+                foundation in a variety of aspects related to web development. I have gained strong knowledge in building front-end
+                applications using JavaScript, jQuery, and React. I have also experience working with back-end technologies such as PHP
+                and MySQL.
+              </p>
+              <p id="about-p3" class="leading-relaxed mb-4">
+                My analytical thinking, along with the skills that I have developed as a programmer, have prepared me to be a great
+                addition to a development team. I would greatly value the opportunity to contribute to your team and organization.
+              </p>
+
+            </div>
+          </div>
+
+          <div id="skills" class="text-lg font-semibold">Technical Skills</div>
+          <div id="skills-icon-row" class="text-gray-600 mb-2 flex flex-row flex-wrap justify-center content-center">
+            <div class="skill-icon-box hover:text-html">
+              <i class="devicon-html5-plain text-6xl"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-icon-box hover:text-css">
+              <i class="devicon-css3-plain text-6xl"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-icon-box hover:text-js">
+              <i class="fab fa-js text-6xl"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill-icon-box hover:text-react">
+              <i class="devicon-react-original text-6xl"></i>
+              <span>React</span>
+            </div>
+            <div class="skill-icon-box hover:text-php">
+              <i class="devicon-php-plain text-6xl"></i>
+              <span>PHP</span>
+            </div>
+            <div class="skill-icon-box hover:text-mysql">
+              <i class="devicon-mysql-plain text-6xl"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="skill-icon-box hover:text-node">
+              <i class="devicon-nodejs-plain text-6xl"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="skill-icon-box hover:text-bootstrap">
+              <i class="devicon-bootstrap-plain text-6xl"></i>
+              <span>Bootstrap</span>
+            </div>
+            <div class="skill-icon-box hover:text-jquery">
+              <i class="devicon-jquery-plain text-6xl"></i>
+              <span>jQuery</span>
+            </div>
+          </div>
+
+          <div id="tools" class="text-lg font-semibold">Tools Used</div>
+          <div id="tools-icon-row" class="text-gray-600 mb-2 flex flex-row flex-wrap justify-center content-center">
+            <div class="tool-icon-box hover:text-git">
+              <i class="devicon-git-plain text-6xl"></i>
+              <span>Git</span>
+            </div>
+            <div class="tool-icon-box hover:text-github">
+              <i class="devicon-github-plain text-6xl"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="tool-icon-box hover:text-npm">
+              <i class="fab fa-npm text-6xl"></i>
+              <span>npm</span>
+            </div>
+            <div class="tool-icon-box hover:text-webpack">
+              <i class="devicon-webpack-plain text-6xl"></i>
+              <span>Webpack</span>
+            </div>
+            <div class="tool-icon-box hover:text-express">
+              <i class="devicon-express-original text-6xl"></i>
+              <span>Express</span>
+            </div>
+            <div class="tool-icon-box hover:text-aws">
+              <i class="fab fa-aws text-6xl"></i>
+              <span>AWS</span>
+            </div>
+            <div class="tool-icon-box hover:text-ubuntu">
+              <i class="devicon-ubuntu-plain text-6xl"></i>
+              <span>Ubuntu</span>
+            </div>
+            <div class="tool-icon-box hover:text-apache">
+              <i class="devicon-apache-plain text-6xl"></i>
+              <span>Apache</span>
+            </div>
+            <div class="tool-icon-box hover:text-teal-500">
+              <svg class="fill-current" width="64" height="64" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z" />
+              </svg>
+              <span>Tailwind</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS SECTION -->
+      <section id="projects" class="bg-blue-100">
+        <div class="section-container">
+          <h2 id="projects-header" class="section-header">Recent Applications</h2>
+          <div class="divider"></div>
+
+          <div class="project-card-container flex flex-wrap justify-center content-center">
+
+            <div class="project-card">
+              <div class="card-img w-full bg-orange-500 h-56"></div><!-- <img src="" alt=""> -->
+              <div class="card-body p-4">
+                <div class="mb-2 flex justify-between">
+                  <span class="card-header text-lg font-bold">Shopoly</span>
+                  <div class="card-links">
+                    <button class="btn btn-text">Live</button>
+                    <button class="btn btn-text">Source</button>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A Monopoly themed full-stack LAMP & React shopping cart SPA where shoppers can browse properties, add their items to a
+                  cart, and place orders online.
+                </p>
+                <hr class="my-4" />
+                <p class="card-tags text-sm font-bold">React | Material-UI | PHP | MySQL</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-img w-full bg-indigo-500 h-56"></div><!-- <img src="" alt=""> -->
+              <div class="card-body p-4">
+                <div class="mb-2 flex justify-between">
+                  <span class="card-header text-lg font-bold">Roadster</span>
+                  <div class="card-links">
+                    <button class="btn btn-text">Live</button>
+                    <button class="btn btn-text">Source</button>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A hackathon group project and road trip planning app for travelers looking for restaurant recommendations and points of
+                  interest along their route.
+                </p>
+                <hr class="my-4" />
+                <p class="card-tags text-sm font-bold">JavaScript | jQuery | AJAX | SPA</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-img w-full bg-pink-500 h-56"></div><!-- <img src="" alt=""> -->
+              <div class="card-body p-4">
+                <div class="mb-2 flex justify-between">
+                  <span class="card-header text-lg font-bold">Super Match Bros.</span>
+                  <div class="card-links">
+                    <button class="btn btn-text">Live</button>
+                    <button class="btn btn-text">Source</button>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A Super Smash Bros. themed JavaScript & jQuery card matching browser game. Game features a responsive build to support
+                  gameplay on any device.
+                </p>
+                <hr class="my-4" />
+                <p class="card-tags text-sm font-bold">HTML5 | CSS3 | JavaScript | jQuery</p>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="card-img w-full bg-red-500 h-56"></div><!-- <img src="" alt=""> -->
+              <div class="card-body p-4">
+                <div class="mb-2 flex justify-between">
+                  <span class="card-header text-lg font-bold">TinDog</span>
+                  <div class="card-links">
+                    <button class="btn btn-text">Live</button>
+                    <button class="btn btn-text">Source</button>
+                  </div>
+                </div>
+                <p class="card-text">
+                  A dog playdate scheduling app where social dog owners can post and join dates to meet dogs in their area. A two person
+                  project built using React, Node, and MySQL.
+                </p>
+                <hr class="my-4" />
+                <p class="card-tags text-sm font-bold">React | Reactstrap | React Router | Node.js | Express | MySQL</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME SECTION -->
+      <section id="resume" class="bg-white">
+        <div class="section-container">
+          <h2 id="resume-header" class="section-header">Resume</h2>
+          <div class="divider"></div>
+
+          <div id="resume-box" class="flex mb-4">
+            <img src="assets/images/resume.svg" alt="Graphic with resume document" class="w-24 md:w-32 lg:w-40 m-4" />
+            <div class="flex flex-col justify-center items-start ml-4">
+              <p class="mb-4 text-lg font-semibold">
+                View my resume for a complete summary of my professional experience, technical skills, and applications developed!
+              </p>
+              <button class="btn btn-filled">
+                View Resume<i class="fas fa-external-link-square-alt text-lg ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section id="contact" class="bg-blue-100">
+        <div class="section-container">
+          <h2 id="contact-header" class="section-header">Contact</h2>
+          <div class="divider"></div>
+
+          <div class="flex flex-col md:flex-row justify-between items-center">
+            <div class="panel max-w-xl w-full m-4 p-8 bg-white border rounded shadow">
+              <form id="contact-form" action="https://formspree.io/adisonlay@gmail.com" method="POST" class="w-full">
+                <div class="input-line border-b border-gray-400 focus-within:border-blue-500 focus-within:border-b-2 mb-8">
+                  <input type="text" name="name" id="form-name-input" placeholder="Name" required
+                    class="w-full appearance-none bg-transparent border-none focus:outline-none" />
+                </div>
+                <div class="input-line border-b border-gray-400 focus-within:border-blue-500 focus-within:border-b-2 mb-8">
+                  <input type="email" name="_replyto" id="form-email-input" placeholder="Email Address" required
+                    class="w-full appearance-none bg-transparent border-none focus:outline-none" />
+                </div>
+                <div class="input-line border-b border-gray-400 focus-within:border-blue-500 focus-within:border-b-2 mb-8">
+                  <textarea name="message" id="form-message-input" placeholder="Message" rows="4" required
+                    class="w-full appearance-none bg-transparent border-none focus:outline-none"></textarea>
+                </div>
+                <input type="text" name="_gotcha" class="hidden" />
+                <input type="hidden" name="_subject" value="Portfolio Website Contact Form Message" />
+                <button type="submit" class="btn btn-filled">
+                  Send<i class="fas fa-paper-plane text-lg ml-2"></i>
+                </button>
+              </form>
+            </div>
+
+            <div class="flex flex-col justify-center items-center max-w-sm w-full mt-8 md:mt-0">
+              <img src="assets/images/code-thinking.svg" alt="Graphic with person sitting against laptop" class="w-48 md:w-56 lg:w-64" />
+              <div id="contact-btn-group" class="flex justify-between w-3/4 mt-8">
+                <a href="mailto:adisonlay@gmail.com" target="_blank" class="icon-btn flex flex-col justify-center items-center" title="Email">
+                  <i class="fas fa-envelope-square text-4xl"></i>
+                  <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/adisonlay" target="_blank" class="icon-btn flex flex-col justify-center items-center" title="LinkedIn">
+                  <i class="fab fa-linkedin text-4xl"></i>
+                  <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/adisonlay" target="_blank" class="icon-btn flex flex-col justify-center items-center" title="GitHub">
+                  <i class="fab fa-github-square text-4xl"></i>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-blue-500 flex justify-center">
+      <a href="#" id="footer-logo-container" class="flex">
+        <div id="footer-logo-circle" class="h-8 w-8 p-2 m-4 circle">
+          <i id="footer-logo-icon" class="fas fa-broadcast-tower text-white text-sm"></i>
+        </div>
+        <div id="footer-header-box" class="flex flex-col justify-center">
+          <h5 id="footer-header" class="text-white font-bold">Adison Lay</h5>
+          <h6 id="footer-subheader" class="text-sm text-white">Web Developer</h6>
+        </div>
+      </a>
+    </footer>
+
+  </body>
+</html>
