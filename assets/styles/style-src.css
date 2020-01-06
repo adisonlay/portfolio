@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 @tailwind base;
 
 @tailwind components;
@@ -92,5 +94,7 @@
   .btn-filled:hover {
     @apply bg-blue-700 shadow-lg;
   }
+
+/* purgecss end ignore */
 
 @tailwind utilities;
