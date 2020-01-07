@@ -629,6 +629,7 @@ video {
 
 html {
   scroll-behavior: smooth;
+  font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
 }
 
 .section-container {
