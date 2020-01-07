@@ -4,6 +4,10 @@
 
 @tailwind components;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .section-container {
   @apply mx-auto px-8 py-32 max-w-xl;
 }
