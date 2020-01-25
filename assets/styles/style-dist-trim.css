@@ -938,10 +938,6 @@ html {
   font-weight: 600;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .h-1 {
   height: 0.25rem;
 }
@@ -1050,6 +1046,14 @@ html {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.pb-px {
+  padding-bottom: 1px;
+}
+
+.focus-within\:pb-0:focus-within {
+  padding-bottom: 0;
 }
 
 .fixed {
