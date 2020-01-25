@@ -26,7 +26,8 @@ module.exports = {
     backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
     borderColor: ['responsive', 'hover', 'focus', 'focus-within'],
     borderWidth: ['responsive', 'hover', 'focus', 'focus-within'],
-    width: ['responsive', 'hover', 'focus', 'group-hover']
+    width: ['responsive', 'hover', 'focus', 'group-hover'],
+    padding: ['responsive', 'hover', 'focus', 'focus-within']
   },
   plugins: []
 }
